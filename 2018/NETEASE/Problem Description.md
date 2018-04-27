@@ -26,6 +26,7 @@
 
 
 ## 第二题
+
 ### 题目描述
 >牛牛以前在老师那里得到了一个正整数数对（x,y），牛牛忘记他们具体是多少了。但是牛牛记得老师告诉他x和y均不大于n,并且x除以y的余数大于等于k。牛牛希望你能帮他计算一共有多少个可能的数对。
 
@@ -36,6 +37,7 @@
 >对于每个测试用例，输出一个正整数表示可能的数对数量。
 
 **例子：**
+
 输入：
 ```
 5 2
@@ -103,7 +105,7 @@ i=10  %  3 =  1
 - 维护一个（N+M）的dp[N+M]的数组，记录不同能力和不同难度下的最大薪酬
 - 复杂度 MAX（O(NlogN),O(MlogM),O(N+M))
 
-![](index_files/4bdea8a7-9755-4980-8bba-9d0a279c5d53.png)
+![](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/2018/NETEASE/pic/Q3.png)
 
 
 
