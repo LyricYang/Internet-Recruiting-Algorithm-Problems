@@ -1,19 +1,15 @@
 <!-- TOC -->
-* [2018年校园招聘笔试算法题](#2018校园招聘笔试算法题)
-* [2017年校园招聘笔试算法题](#2017校园招聘笔试算法题)
-* [2016年校园招聘笔试算法题](#2016校园招聘笔试算法题)
+* [互联网企业](#互联网企业)
 * [说明](#说明)
 
 
-# 2018校园招聘笔试算法题
+# 互联网企业
 
-- [网易](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/2018/NETEASE/Problem%20Description.md)
+- [网易](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE)
 
-- [远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/2018/ENVISION/Problem%20Description.md)
+- [远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION)
 
-# 2017校园招聘笔试算法题
-
-# 2016校园招聘笔试算法题
+- [今日头条](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO)
 
 # 说明
 
