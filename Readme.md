@@ -1,5 +1,7 @@
 <!-- TOC -->
 * [互联网企业](#互联网企业)
+* [通信企业](#通信企业)
+* [金融行业](#金融行业)
 * [说明](#说明)
 
 
@@ -10,6 +12,15 @@
 - [远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION)
 
 - [今日头条](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO)
+
+# 通信企业
+
+- [华为](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI)
+
+# 金融企业
+
+- [招商银行](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK)
+
 
 # 说明
 
