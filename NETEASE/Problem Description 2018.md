@@ -185,7 +185,7 @@ public class Main {
 - 维护一个（N+M）的dp[N+M]的数组，记录不同能力和不同难度下的最大薪酬
 - 复杂度 MAX（O(NlogN),O(MlogM),O(N+M))
 
-![](index_files/4bdea8a7-9755-4980-8bba-9d0a279c5d53.png)
+![](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/NETEASE/pic/Q3_2018.png)
 
 ### 参考代码
 
