@@ -490,7 +490,7 @@ YES
 ### 解题思路
 - 动态规划：用一个s字符串长度的dp数组，记录t字符串中每个字符前有多少个s中的字符。
 
-<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/pic/Q7Y2017.jpg" width="300"/> </div><br>
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/pic/Q7Y2017.jpg"/> </div><br>
 
 ### 参考代码
 
