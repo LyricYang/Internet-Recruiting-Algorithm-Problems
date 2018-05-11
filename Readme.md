@@ -2,10 +2,10 @@
 
 |公司|招聘公众号|
 |:---|:----|
-|[网易](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE)||
-|[远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION)||
-|[今日头条](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO)||
-|[华为](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI)||
+|[网易](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE)|微信号：wangyizhaopin|
+|[远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION)|微信号：Envisioncn_recruit|
+|[今日头条](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO)|微信号：toutiaohr|
+|[华为](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI)|微信号：huaweizhaopin|
 |[招商银行](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK)||
 
 
