@@ -7,7 +7,14 @@
 |[今日头条](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO)|微信号：toutiaohr|
 |[华为](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI)|微信号：huaweizhaopin|
 |[招商银行](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK)|微信号：cmbccjob|
-
+|[携程]()|微信号：ctriphr|
+|[百度]()||
+|[腾讯]()|微信号：QQjobs|
+|[阿里]()||
+|[趋势科技]()||
+|[微软]()||
+|[海康威视]()||
+|[美团]()||
 
 ## 说明
 
