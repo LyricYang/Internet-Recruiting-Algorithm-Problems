@@ -4,7 +4,7 @@
 |:---|:----:|:----|:---:|:---:|
 |[网易](http://campus.163.com/#/home)|互联网|微信号：wangyizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|
 |[网易游戏](http://game.campus.163.com/index.html)|互联网|微信号：|2018|2017|
-|[远景能源](https://recruit.envisioncn.com/)|互联网/能源|微信号：Envisioncn_recruit|2018|2017|
+|[远景能源](https://recruit.envisioncn.com/)|互联网/能源|微信号：Envisioncn_recruit|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION/Problem%20Description%202018.md)|2017|
 |[今日头条](https://job.toutiao.com/campus/position)|互联网|微信号：toutiaohr|2018|2017|
 |[华为](http://career.huawei.com/reccampportal/campus4_index.html#campus4/pages/home/freshGraduate.html?type=2&faqtype=1)|互联网/通信|微信号：huaweizhaopin|2018|2017|
 |[招商银行信用卡中心](http://cmbcc.zhiye.com/campus)|互联网/金融|微信号：cmbccjob|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK/Problem%20Description%202018.md)|2017|
