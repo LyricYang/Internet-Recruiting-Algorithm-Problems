@@ -6,7 +6,7 @@
 |[远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION)|微信号：Envisioncn_recruit|
 |[今日头条](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO)|微信号：toutiaohr|
 |[华为](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI)|微信号：huaweizhaopin|
-|[招商银行](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK)||
+|[招商银行](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK)|微信号：cmbccjob|
 
 
 ## 说明
