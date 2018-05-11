@@ -1,23 +1,23 @@
 # 公司招聘算法笔试题解答
 
-|公司|招聘公众号|
-|:---|:----|
-|[网易](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE)|微信号：wangyizhaopin|
-|[远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION)|微信号：Envisioncn_recruit|
-|[今日头条](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO)|微信号：toutiaohr|
-|[华为](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI)|微信号：huaweizhaopin|
-|[招商银行](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK)|微信号：cmbccjob|
-|[携程]()|微信号：ctriphr|
-|[百度]()||
-|[腾讯]()|微信号：QQjobs|
-|[阿里]()||
-|[趋势科技]()||
-|[微软]()||
-|[海康威视]()||
-|[美团]()||
-|[中兴]()||
-|[小米]()||
-|[京东]()||
+|公司|公司类型|招聘公众号|
+|:---|:----:|:----|
+|[网易](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE)|互联网|微信号：wangyizhaopin|
+|[远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION)|互联网|微信号：Envisioncn_recruit|
+|[今日头条](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO)|互联网|微信号：toutiaohr|
+|[华为](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI)|通信|微信号：huaweizhaopin|
+|[招商银行](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK)|互联网/金融|微信号：cmbccjob|
+|[携程]()|互联网|微信号：ctriphr|
+|[百度]()|互联网||
+|[腾讯]()|互联网|微信号：QQjobs|
+|[阿里]()|互联网||
+|[趋势科技]()|互联网||
+|[微软]()|互联网||
+|[海康威视]()|互联网||
+|[美团]()|互联网||
+|[中兴]()|通信||
+|[小米]()|互联网||
+|[京东]()|互联网||
 
 ## 说明
 
