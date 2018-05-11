@@ -20,6 +20,7 @@
 |[中兴](http://job.zte.com.cn/)|互联网/通信|微信号：|2018|2017|
 |[小米](http://hr.xiaomi.com/campus/process)|互联网|微信号：|2018|2017|
 |[京东](http://campus.jd.com/home)|互联网|微信号：|2018|2017|
+|[51信用卡](http://job.u51.com/Campus/)|互联网|微信号：|2018|2017|
 
 ## 说明
 
