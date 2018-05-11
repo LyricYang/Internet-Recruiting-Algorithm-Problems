@@ -7,6 +7,10 @@
 
 ## 互联网企业
 
+|公司|笔试题|招聘公众号|
+|:---|:---:|:----|
+|网易|https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE||
+
 - [网易](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE)
 
 - [远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION)
