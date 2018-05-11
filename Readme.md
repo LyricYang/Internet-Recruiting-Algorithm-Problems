@@ -3,22 +3,22 @@
 |公司|公司类型|招聘公众号|2018笔试题|2017笔试题|
 |:---|:----:|:----|:---:|:---:|
 |[网易](http://campus.163.com/#/home)|互联网|微信号：wangyizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|
-|[网易游戏]()|互联网||
-|[远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION)|互联网/能源|微信号：Envisioncn_recruit|
-|[今日头条](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO)|互联网|微信号：toutiaohr|
-|[华为](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI)|互联网/通信|微信号：huaweizhaopin|
-|[招商银行](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK)|互联网/金融|微信号：cmbccjob|
-|[携程]()|互联网|微信号：ctriphr|
-|[百度]()|互联网||
-|[腾讯]()|互联网|微信号：QQjobs|
-|[阿里]()|互联网||
-|[趋势科技]()|互联网||
-|[微软]()|互联网||
-|[海康威视]()|互联网||
-|[美团]()|互联网||
-|[中兴]()|互联网/通信||
-|[小米]()|互联网||
-|[京东](http://campus.jd.com/home)|互联网|||
+|[网易游戏](http://game.campus.163.com/index.html)|互联网|微信号：|2018|2017|
+|[远景能源]()|互联网/能源|微信号：Envisioncn_recruit|2018|2017|
+|[今日头条]()|互联网|微信号：toutiaohr|2018|2017|
+|[华为]()|互联网/通信|微信号：huaweizhaopin|2018|2017|
+|[招商银行]()|互联网/金融|微信号：cmbccjob|2018|2017|
+|[携程]()|互联网|微信号：ctriphr|2018|2017|
+|[百度]()|互联网|微信号：|2018|2017|
+|[腾讯]()|互联网|微信号：QQjobs|2018|2017|
+|[阿里]()|互联网|微信号：|2018|2017|
+|[趋势科技]()|互联网|微信号：|2018|2017|
+|[微软]()|互联网|微信号：|2018|2017|
+|[海康威视]()|互联网|微信号：|2018|2017|
+|[美团]()|互联网|微信号：|2018|2017|
+|[中兴]()|互联网/通信|微信号：|2018|2017|
+|[小米]()|互联网|微信号：|2018|2017|
+|[京东](http://campus.jd.com/home)|互联网|微信号：|2018|2017|
 
 ## 说明
 
