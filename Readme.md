@@ -1,6 +1,6 @@
 # 公司招聘算法笔试题解答
 
-|公司|公司类型|招聘公众号|2018笔试题|2017笔试题|
+|公司|公司类型|招聘公众号|2018笔试题|
 |:---|:----:|:----|:---:|
 |[网易](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE)|互联网|微信号：wangyizhaopin|
 |[网易游戏]()|互联网||
