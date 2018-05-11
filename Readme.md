@@ -1,8 +1,8 @@
 # 公司招聘算法笔试题解答
 
-|公司|公司类型|招聘公众号|2018笔试题|
-|:---|:----:|:----|:---:|
-|[网易](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE)|互联网|微信号：wangyizhaopin|
+|公司|公司类型|招聘公众号|2018笔试题|2017笔试题|
+|:---|:----:|:----|:---:|:---:|
+|[网易](http://campus.163.com/#/home)|互联网|微信号：wangyizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|
 |[网易游戏]()|互联网||
 |[远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION)|互联网/能源|微信号：Envisioncn_recruit|
 |[今日头条](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO)|互联网|微信号：toutiaohr|
