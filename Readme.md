@@ -1,7 +1,7 @@
 # 公司招聘算法笔试题解答
 
-|公司|公司类型|招聘公众号|
-|:---|:----:|:----|
+|公司|公司类型|招聘公众号|官网地址|
+|:---|:----:|:----|:---:|
 |[网易](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE)|互联网|微信号：wangyizhaopin|
 |[网易游戏]()|互联网||
 |[远景能源](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION)|互联网/能源|微信号：Envisioncn_recruit|
@@ -18,7 +18,7 @@
 |[美团]()|互联网||
 |[中兴]()|互联网/通信||
 |[小米]()|互联网||
-|[京东]()|互联网||
+|[京东]()|互联网||http://campus.jd.com/home|
 
 ## 说明
 
