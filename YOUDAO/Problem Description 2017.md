@@ -3,8 +3,6 @@
 * [第二题](#第二题-构造队列)
 <!-- TOC -->
 
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
 
 ## 第一题 洗牌
 
@@ -101,7 +99,8 @@ while(!Q.empty())              //队列不空，执行循环
 
 ### 解题思路
 - 方法一：找规律，从几个样例找出数字和数字所在位置的关系
-$$loc=2*i-1 \qquad loc \lt n$$
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=$$loc=2*i-1&space;\qquad&space;loc&space;\lt&space;n$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$loc=2*i-1&space;\qquad&space;loc&space;\lt&space;n$$" title="$$loc=2*i-1 \qquad loc \lt n$$" /></a>
 
 $$loc=2*(loc-n) \qquad loc \ge n$$
 
