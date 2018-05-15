@@ -102,9 +102,7 @@ while(!Q.empty())              //队列不空，执行循环
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=$$loc=2*i-1&space;\qquad&space;loc&space;\lt&space;n$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$loc=2*i-1&space;\qquad&space;loc&space;\lt&space;n$$" title="$$loc=2*i-1 \qquad loc \lt n$$" /></a>
 
-<script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"> </script>
-
-formula1: $$loc=2*(loc-n) \qquad loc \ge n$$
+<a href="https://www.codecogs.com/eqnedit.php?latex=$$loc=2*(loc-n)&space;\qquad&space;loc&space;\ge&space;n$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$loc=2*(loc-n)&space;\qquad&space;loc&space;\ge&space;n$$" title="$$loc=2*(loc-n) \qquad loc \ge n$$" /></a>
 
 - 方法二：原始队列操作的逆操作
 
