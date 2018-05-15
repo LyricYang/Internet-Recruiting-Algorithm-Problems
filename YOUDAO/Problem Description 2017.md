@@ -100,9 +100,9 @@ while(!Q.empty())              //队列不空，执行循环
 ### 解题思路
 - 方法一：找规律，从几个样例找出数字和数字所在位置的关系
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=$$loc=2*i-1&space;\qquad&space;loc&space;<&space;n$$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$$loc=2*i-1&space;\qquad&space;loc&space;<&space;n$$" title="$$loc=2*i-1 \qquad loc < n$$" /></a>
+<div align="center"><img src="https://latex.codecogs.com/gif.latex?$$loc=2*i-1&space;\qquad&space;loc&space;<&space;n$$" title="$$loc=2*i-1 \qquad loc < n$$" /></div>
 
-<img src="http://latex.codecogs.com/gif.latex?$$loc=2*(loc-n)&space;\qquad&space;loc&space;\ge&space;n$$" title="$$loc=2*(loc-n) \qquad loc \ge n$$" />
+<div align="center"><img src="http://latex.codecogs.com/gif.latex?$$loc=2*(loc-n)&space;\qquad&space;loc&space;\ge&space;n$$" title="$$loc=2*(loc-n) \qquad loc \ge n$$" /></div>
 
 - 方法二：原始队列操作的逆操作
 
