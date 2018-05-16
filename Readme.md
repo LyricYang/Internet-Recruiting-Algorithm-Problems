@@ -24,6 +24,7 @@
 |[小米](http://hr.xiaomi.com/campus/process)|互联网|微信号：|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MI/Problem%20Description%202017.md)|
 |[京东](http://campus.jd.com/home)|互联网|微信号：|2018|2017|
 |[51信用卡](http://job.u51.com/Campus/)|互联网|微信号：|2018|2017|
+|[大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：|2018|2017|
 
 ## 说明
 
