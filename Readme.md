@@ -18,7 +18,7 @@
 |[阿里](https://campus.alibaba.com/index.htm)|互联网|微信号：gh_f764a77534dc|2018|2017|
 |[趋势科技](http://campus.51job.com/trendmicro2018/job.html)|互联网|微信号：qushizhaopin|2018|2017|
 |[微软](http://www.joinms.com/cn_c/index.html)|互联网|微信号：joinmicrosoft|2018|2017|
-|[海康威视](http://campus.hikvision.com/home)|互联网|微信号：|2018|2017|
+|[海康威视](http://campus.hikvision.com/home)|互联网|微信号：HikivisionHR|2018|2017|
 |[美团](https://campus.meituan.com/#/)|互联网|微信号：|2018|2017|
 |[中兴](http://job.zte.com.cn/)|互联网/通信|微信号：|2018|2017|
 |[小米](http://hr.xiaomi.com/campus/process)|互联网|微信号：|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MI/Problem%20Description%202017.md)|
