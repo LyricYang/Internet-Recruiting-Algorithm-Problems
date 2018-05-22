@@ -15,7 +15,7 @@
 |[携程](http://campus.ctrip.com/)|互联网|微信号：ctriphr|2018|2017|
 |[百度](https://talent.baidu.com/external/baidu/campus.html#/campus)|互联网|微信号：talent_baidu|2018|2017|
 |[腾讯](https://join.qq.com/index.php)|互联网|微信号：QQjobs|2018|2017|
-|[阿里](https://campus.alibaba.com/index.htm)|互联网|微信号：|2018|2017|
+|[阿里](https://campus.alibaba.com/index.htm)|互联网|微信号：gh_f764a77534dc|2018|2017|
 |[趋势科技](http://campus.51job.com/trendmicro2018/job.html)|互联网|微信号：|2018|2017|
 |[微软](http://www.joinms.com/cn_c/index.html)|互联网|微信号：|2018|2017|
 |[海康威视](http://campus.hikvision.com/home)|互联网|微信号：|2018|2017|
