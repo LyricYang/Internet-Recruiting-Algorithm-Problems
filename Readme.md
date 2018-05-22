@@ -25,7 +25,7 @@
 |[VIVO](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagerecruit_School)|互联网|微信号：vivozhaopin|2018|2017|
 |[京东](http://campus.jd.com/home)|互联网|微信号：jd_zhaopin|2018|2017|
 |[51信用卡](http://job.u51.com/Campus/)|互联网|微信号：u51_hr|2018|2017|
-|[大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：|2018|2017|
+|[大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：DJI_Recuitment|2018|2017|
 
 ## 说明
 
