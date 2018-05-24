@@ -22,7 +22,7 @@
 |[美团](https://campus.meituan.com/#/)|互联网|微信号：dianpinghr|2018|2017|
 |[中兴](http://job.zte.com.cn/)|互联网/通信|微信号：joinzte|2018|2017|
 |[小米](http://hr.xiaomi.com/campus/process)|互联网|微信号：gh_249bb04444d7|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MI/Problem%20Description%202017.md)|
-|[VIVO](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagerecruit_School)|互联网|微信号：vivozhaopin|2018|2017|[投递网址]()|2018.5.31|- [ ]已投递 - [ ] 笔试 - [ ]面试 - [ ]offer|
+|[VIVO](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagerecruit_School)|互联网|微信号：vivozhaopin|2018|2017|[投递网址]()|2018.5.31|- [ ]已投递|
 |[京东](http://campus.jd.com/home)|互联网|微信号：jd_zhaopin|2018|2017|
 |[51信用卡](http://job.u51.com/Campus/)|互联网|微信号：u51_hr|2018|2017|
 |[大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：DJI_Recuitment|2018|2017|
