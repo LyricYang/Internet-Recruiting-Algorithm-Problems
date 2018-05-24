@@ -2,8 +2,8 @@
 
 <a href="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/dayjs.svg?style=flat-square" alt="License"></a>
 
-|公司|公司类型|招聘公众号|2018笔试题|2017笔试题|校园招聘截止时间|投递地址|状态|
-|:---|:----:|:----|:---:|:---:|:---:|:---:|:---:|
+|公司|公司类型|招聘公众号|2018笔试题|2017笔试题|校园招聘截止时间|投递地址|
+|:---|:----:|:----|:---:|:---:|:---:|
 |[网易](http://campus.163.com/#/home)|互联网|微信号：wangyizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|
 |[网易游戏](http://game.campus.163.com/index.html)|互联网|微信号：|2018|2017|
 |网易有道|互联网|微信号：|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/YOUDAO/Problem%20Description%202017.md)|
@@ -22,7 +22,7 @@
 |[美团](https://campus.meituan.com/#/)|互联网|微信号：dianpinghr|2018|2017|
 |[中兴](http://job.zte.com.cn/)|互联网/通信|微信号：joinzte|2018|2017|
 |[小米](http://hr.xiaomi.com/campus/process)|互联网|微信号：gh_249bb04444d7|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MI/Problem%20Description%202017.md)|
-|[VIVO](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagerecruit_School)|互联网|微信号：vivozhaopin|2018|2017|[投递网址](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagecampus_process)|2018.5.31| :ballot_box_with_check: |
+|[VIVO](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagerecruit_School)|互联网|微信号：vivozhaopin|2018|2017|[投递网址](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagecampus_process)|2018.5.31|
 |[京东](http://campus.jd.com/home)|互联网|微信号：jd_zhaopin|2018|2017|
 |[51信用卡](http://job.u51.com/Campus/)|互联网|微信号：u51_hr|2018|2017|
 |[大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：DJI_Recuitment|2018|2017|
