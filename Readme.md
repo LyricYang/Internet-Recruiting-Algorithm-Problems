@@ -28,6 +28,8 @@
 |[大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：DJI_Recuitment|2018|2017|
 |滴滴出行|互联网/通信|微信号：|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/DIDI/Problem%20Description%202017.md)|
 
+- [ ] mianshi 
+
 ## 说明
 
 ### 关于仓库
