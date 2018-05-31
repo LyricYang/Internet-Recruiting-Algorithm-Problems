@@ -25,7 +25,7 @@
 |[VIVO](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagerecruit_School)|互联网|微信号：vivozhaopin|2018|2017|[投递网址](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagecampus_process)|2018.5.31|
 |[京东](http://campus.jd.com/home)|互联网|微信号：jd_zhaopin|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JD/Problem%20Description%202017.md)|
 |[51信用卡](http://job.u51.com/Campus/)|互联网|微信号：u51_hr|2018|2017|
-|[大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：DJI_Recuitment|2018|2017|
+|[大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：DJI_Recuitment|2018|2017|[投递网址](https://we.dji.com/zh-CN/campus/recruitment)|2018.6.30|
 |滴滴出行|互联网/通信|微信号：|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/DIDI/Problem%20Description%202017.md)|
 
 ## 说明
