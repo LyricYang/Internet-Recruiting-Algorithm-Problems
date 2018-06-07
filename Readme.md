@@ -1,6 +1,6 @@
 # 公司招聘算法笔试题解答
 
-<a href="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License"></a>
+![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 |公司|公司类型|招聘公众号|2018笔试题|2017笔试题|投递地址|校园招聘截止时间|
 |:---|:----:|:----|:---:|:---:|:---:|:---:|
