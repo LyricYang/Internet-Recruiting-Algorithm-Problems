@@ -5,8 +5,8 @@
 |公司|公司类型|招聘公众号|2018笔试题|2017笔试题|投递地址|校园招聘截止时间|
 |:---|:----:|:----|:---:|:---:|:---:|:---:|
 |[网易](http://campus.163.com/#/home)|互联网|微信号：wangyizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|
-|[网易游戏](http://game.campus.163.com/index.html)|互联网|微信号：|2018|2017|
-|网易有道|互联网|微信号：|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/YOUDAO/Problem%20Description%202017.md)|
+|[网易游戏](http://game.campus.163.com/index.html)|互联网|微信号：gh_b8dad7e663af|2018|2017|
+|[网易有道](http://job.youdao.com/)|互联网|微信号：gh_8b7a5fdb804d|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/YOUDAO/Problem%20Description%202017.md)|
 |[远景能源](https://recruit.envisioncn.com/)|互联网/能源|微信号：Envisioncn_recruit|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION/Problem%20Description%202018.md)|2017|
 |[今日头条](https://job.toutiao.com/campus/position)|互联网|微信号：toutiaohr|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO/Problem%20Description%202018.md)|2017|
 |[拼多多](http://www.pinduoduo.com/campus.html)|互联网|微信号：gh_42cd7f735d3d|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/PINDUODUO/Problem%20Description%202018.md)|2017|
