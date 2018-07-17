@@ -29,6 +29,57 @@
 |[大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：DJI_Recuitment|2018|2017|[投递网址](https://we.dji.com/zh-CN/campus/recruitment)|2018.6.30|
 |[滴滴出行](http://campus.didichuxing.com/campus)|互联网/通信|微信号：|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/DIDI/Problem%20Description%202017.md)|
 
+### 面试中手撕代码
+
+**1. 获取一个目录下的所有文件夹和文件，包括子文件夹和子文件**
+
+```java
+import java.io.File;
+/*
+ * 获取一个目录下的所有文件夹和文件，包括子文件夹和子文件 。
+ * 并将文件夹和文件名称打印在控制台上面。并且要显示文件目录的层级
+ * 注：运用了递归的算法。
+ */
+public class FilePath {
+ 
+  public static void main(String[] args) {
+    File dir=new File("/home/coding/workspace/python/");
+    //File dir=new File("F:\\");
+    //如果使用上述的盘符的根目录，会出现java.lang.NullPointerException
+    //为什么？
+    getAllFiles(dir,0);//0表示最顶层
+  }
+  //获取层级的方法
+  public static String getLevel(int level)
+  {
+    //A mutable sequence of characters.
+    StringBuilder sb=new StringBuilder();
+    for(int l=0;l<level;l++)
+    {
+      sb.append("|--");
+    }
+    return sb.toString();
+  }
+  public static void getAllFiles(File dir,int level)
+  {
+    System.out.println(getLevel(level)+dir.getName());
+    level++;
+    File[] files=dir.listFiles();
+    for(int i=0;i<files.length;i++)
+    {
+      if(files[i].isDirectory())
+      {
+        //这里面用了递归的算法
+        getAllFiles(files[i],level);
+      }
+      else {
+        System.out.println(getLevel(level)+files[i]);
+      }	
+    }		 
+  }
+}
+```
+
 ## 说明
 
 ### 关于仓库
