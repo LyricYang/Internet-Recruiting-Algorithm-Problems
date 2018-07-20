@@ -131,6 +131,8 @@ public class QuickSort {
 
 **2. TopK**
 
+- 最大的K个元素最小堆，最小的K个元素最大堆
+
 ```java
 public class TopK {
     public static void main(String[] args){
@@ -185,6 +187,8 @@ public class TopK {
     }
 }
 ```
+
+- 快排思想
 
 ```java
 public class TopKSort {
