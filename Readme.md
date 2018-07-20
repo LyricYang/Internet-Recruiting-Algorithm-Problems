@@ -2,8 +2,8 @@
 
 ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-|公司|公司类型|招聘公众号|2018笔试题|2017笔试题|投递地址|校园招聘截止时间|
-|:---|:----:|:----|:---:|:---:|:---:|:---:|
+|公司|公司类型|招聘公众号|2018笔试题|2017笔试题|
+|:---|:----:|:----|:---:|:---:|
 |[网易](http://campus.163.com/#/home)|互联网|微信号：wangyizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|
 |[网易游戏](http://game.campus.163.com/index.html)|互联网|微信号：gh_b8dad7e663af|2018|2017|
 |[网易有道](http://job.youdao.com/)|互联网|微信号：gh_8b7a5fdb804d|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/YOUDAO/Problem%20Description%202017.md)|
@@ -23,10 +23,10 @@
 |[美团点评](https://campus.meituan.com/#/)|互联网|微信号：dianpinghr|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MEITUAN/Problem%20Description%202017.md)|
 |[中兴](http://job.zte.com.cn/)|互联网/通信|微信号：joinzte|2018|2017|
 |[小米](http://hr.xiaomi.com/campus/process)|互联网|微信号：gh_249bb04444d7|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MI/Problem%20Description%202017.md)|
-|[VIVO](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagerecruit_School)|互联网|微信号：vivozhaopin|2018|2017|[投递网址](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagecampus_process)|2018.5.31|
+|[VIVO](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagerecruit_School)|互联网|微信号：vivozhaopin|2018|2017|
 |[京东](http://campus.jd.com/home)|互联网|微信号：jd_zhaopin|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JD/Problem%20Description%202017.md)|
 |[51信用卡](http://job.u51.com/Campus/)|互联网|微信号：u51_hr|2018|2017|
-|[大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：DJI_Recuitment|2018|2017|[投递网址](https://we.dji.com/zh-CN/campus/recruitment)|2018.6.30|
+|[大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：DJI_Recuitment|2018|2017|
 |[滴滴出行](http://campus.didichuxing.com/campus)|互联网/通信|微信号：|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/DIDI/Problem%20Description%202017.md)|
 
 ### 面试中手撕代码
