@@ -39,7 +39,7 @@
 
 **说明：**
 
-![]()
+![](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MEITUAN/pic/pic1.jpg)
 
 ### 参考代码
 ```java
