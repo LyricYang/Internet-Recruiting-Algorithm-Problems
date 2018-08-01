@@ -33,7 +33,7 @@
 |√[科大讯飞](https://iflytek.cheng95.com/other/campus)|互联网/通信|微信号：|2018|2017|
 |√[CVTE](http://campus.cvte.com/)|互联网/通信|微信号：|2018|2017|
 |√[NVIDIA](http://campus.51job.com/nvidia/)|互联网/通信|微信号：|2018|2017|
-|[√][中国银联](https://billcloud.unionpay.com/wxweb/UPJob/index)|互联网/通信|微信号：|2018|2017|
+|[√][中国银联](https://billcloud.unionpay.com/wxweb/UPJob/index)|互联网/通信|微信号：|2018|2017|01202889|
 |√[旷视科技](https://www.megvii.com/campus/)|互联网/通信|微信号：|2018|2017|
 |√[OPPO](http://oppotqp.zhaopin.com/index.html)|互联网/通信|微信号：|2018|2017|
 |√[汇顶科技](http://www.goodix.com/campus/)|互联网/通信|微信号：|2018|2017|
