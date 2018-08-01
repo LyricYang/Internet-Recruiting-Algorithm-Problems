@@ -2,13 +2,13 @@
 
 ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
-|公司|公司类型|招聘公众号|2018笔试题|2017笔试题|
-|:---|:----:|:----|:---:|:---:|
-|[√][网易](http://campus.163.com/#/home)|互联网|微信号：wangyizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|
+|公司|公司类型|招聘公众号|2018笔试题|2017笔试题|内推码|
+|:---|:----:|:----|:---:|:---:|:---|
+|[√][网易](http://campus.163.com/#/home)|互联网|微信号：wangyizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|222O01Q|
 |√[网易游戏](http://game.campus.163.com/index.html)|互联网|微信号：gh_b8dad7e663af|2018|2017|
 |[网易有道](http://job.youdao.com/)|互联网|微信号：gh_8b7a5fdb804d|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/YOUDAO/Problem%20Description%202017.md)|
 |[远景能源](https://recruit.envisioncn.com/)|互联网/能源|微信号：Envisioncn_recruit|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION/Problem%20Description%202018.md)|2017|
-|[今日头条](https://job.toutiao.com/campus/position)|互联网|微信号：toutiaohr|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO/Problem%20Description%202018.md)|2017|
+|√[今日头条](https://job.bytedance.com/campus)|互联网|微信号：toutiaohr|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO/Problem%20Description%202018.md)|2017|JFWWNV7|
 |√[拼多多](http://www.pinduoduo.com/campus.html)|互联网|微信号：gh_42cd7f735d3d|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/PINDUODUO/Problem%20Description%202018.md)|2017|
 |[√][华为](http://career.huawei.com/reccampportal/campus4_index.html#campus4/pages/home/freshGraduate.html?type=2&faqtype=1)|互联网/通信|微信号：huaweizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI/Problem%20Description%202018.md)|2017|
 |[招商银行信用卡中心](http://cmbcc.zhiye.com/campus)|互联网/金融|微信号：cmbccjob|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK/Problem%20Description%202018.md)|2017|
