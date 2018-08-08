@@ -17,7 +17,7 @@
 |[√][百度](https://talent.baidu.com/external/baidu/campus.html#/campus)|互联网|微信号：talent_baidu|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/Baidu/Problem%20Description%202018.md)|2017|
 |[√][腾讯](https://join.qq.com/index.php)|互联网|微信号：QQjobs|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TENCENT/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TENCENT/Problem%20Description%202017.md)|
 |[√][阿里](https://campus.alibaba.com/index.htm)|互联网|微信号：gh_f764a77534dc|2018|2017|
-|[√][趋势科技](http://campus.51job.com/trendmicro2018/job.html)|互联网|微信号：qushizhaopin|2018|2017|
+|[√][趋势科技](http://campus.51job.com/trendmicro2018/job.html)|互联网|微信号：qushizhaopin|2018|2017|3358|
 |[√][微软](http://www.joinms.com/cn_c/index.html)|互联网|微信号：joinmicrosoft|2018|2017|
 |[√][海康威视](http://campus.hikvision.com/home)|互联网|微信号：HikivisionHR|2018|2017|
 |[√][美团点评](https://campus.meituan.com/#/)|互联网|微信号：dianpinghr|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MEITUAN/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MEITUAN/Problem%20Description%202017.md)|
@@ -25,11 +25,11 @@
 |[√][小米](http://hr.xiaomi.com/campus/process)|互联网|微信号：gh_249bb04444d7|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MI/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MI/Problem%20Description%202017.md)|
 |[√][VIVO](http://hr.vivo.com/wt/vivo/web/index/CompvivoPagerecruit_School)|互联网|微信号：vivozhaopin|2018|2017|
 |[√][京东](http://campus.jd.com/home)|互联网|微信号：jd_zhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JD/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JD/Problem%20Description%202017.md)|
-|[√][51信用卡](http://job.u51.com/Campus/)|互联网|微信号：u51_hr|2018|2017|
+|[-][51信用卡](http://job.u51.com/Campus/)|互联网|微信号：u51_hr|2018|2017|
 |[×][大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：DJI_Recuitment|2018|2017|
 |[√][滴滴出行](http://campus.didichuxing.com/campus)|互联网|微信号：|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/DIDI/Problem%20Description%202017.md)|
 |[√][唯品会](http://campus.vip.com/)|互联网|微信号：|2018|2017|
-|[√][新浪](http://career.sina.com.cn/welcome.html)|互联网/通信|微信号：|2018|2017|
+|[√][新浪](http://career.sina.com.cn/welcome.html)|互联网/通信|微信号：|2018|2017|03UVQ|
 |[√][科大讯飞](https://iflytek.cheng95.com/other/campus)|互联网|微信号：|2018|2017|
 |[√][CVTE](http://campus.cvte.com/)|互联网/通信|微信号：|2018|2017|
 |[√][NVIDIA](http://campus.51job.com/nvidia/)|互联网/芯片|微信号：|2018|2017|
@@ -37,6 +37,8 @@
 |[√][旷视科技](https://www.megvii.com/campus/)|互联网|微信号：|2018|2017|
 |[√][OPPO](http://oppotqp.zhaopin.com/index.html)|互联网/通信|微信号：|2018|2017|
 |[√][汇顶科技](http://www.goodix.com/campus/)|互联网/芯片|微信号：|2018|2017|
+|[√][奇虎360](http://hr.360.cn/)|互联网|微信号：|2018|2017|XV8t24|
+|[√][爱奇艺](http://zhaopin.iqiyi.com/)|互联网|微信号：|2018|2017|YpnrDY|
 
 ### 面试中手撕代码
 
