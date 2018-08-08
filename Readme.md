@@ -4,16 +4,16 @@
 
 |公司|公司类型|招聘公众号|2018笔试题|2017笔试题|内推码|
 |:---|:----:|:----|:---:|:---:|:---|
-|[√][网易](http://campus.163.com/#/home)|互联网|微信号：wangyizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|222O01Q|
+|[T][网易](http://campus.163.com/#/home)|互联网|微信号：wangyizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|222O01Q|
 |[√][网易游戏](http://game.campus.163.com/index.html)|互联网|微信号：gh_b8dad7e663af|2018|2017|
 |[√][网易有道](http://job.youdao.com/)|互联网|微信号：gh_8b7a5fdb804d|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/YOUDAO/Problem%20Description%202017.md)|
 |[√][远景能源](https://recruit.envisioncn.com/)|互联网/能源|微信号：Envisioncn_recruit|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION/Problem%20Description%202018.md)|2017|
 |[√][今日头条](https://job.bytedance.com/campus)|互联网|微信号：toutiaohr|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO/Problem%20Description%202018.md)|2017|JFWWNV7|
 |[√][拼多多](http://www.pinduoduo.com/campus.html)|互联网|微信号：gh_42cd7f735d3d|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/PINDUODUO/Problem%20Description%202018.md)|2017|
-|[√][华为](http://career.huawei.com/reccampportal/campus4_index.html#campus4/pages/home/freshGraduate.html?type=2&faqtype=1)|互联网/通信|微信号：huaweizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI/Problem%20Description%202018.md)|2017|
+|[T][华为](http://career.huawei.com/reccampportal/campus4_index.html#campus4/pages/home/freshGraduate.html?type=2&faqtype=1)|互联网/通信|微信号：huaweizhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI/Problem%20Description%202018.md)|2017|
 |[√][招商银行信用卡中心](http://cmbcc.zhiye.com/campus)|互联网/金融|微信号：cmbccjob|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK/Problem%20Description%202018.md)|2017|
 |[√][招银科技](https://cmbnt.cmbchina.com/bulletin/cmbnt2018/index.html)|互联网|微信号：gh_c84d54755c92|2018|2017|6511MSHZ|
-|[√][携程](http://campus.ctrip.com/)|互联网|微信号：ctriphr|2018|2017|
+|[T][携程](http://campus.ctrip.com/)|互联网|微信号：ctriphr|2018|2017|
 |[√][百度](https://talent.baidu.com/external/baidu/campus.html#/campus)|互联网|微信号：talent_baidu|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/Baidu/Problem%20Description%202018.md)|2017|
 |[√][腾讯](https://join.qq.com/index.php)|互联网|微信号：QQjobs|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TENCENT/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TENCENT/Problem%20Description%202017.md)|
 |[√][阿里](https://campus.alibaba.com/index.htm)|互联网|微信号：gh_f764a77534dc|2018|2017|
@@ -27,16 +27,16 @@
 |[√][京东](http://campus.jd.com/home)|互联网|微信号：jd_zhaopin|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JD/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JD/Problem%20Description%202017.md)|
 |[√][51信用卡](http://job.u51.com/Campus/)|互联网|微信号：u51_hr|2018|2017|
 |[×][大疆](https://we.dji.com/zh-CN/)|互联网/通信|微信号：DJI_Recuitment|2018|2017|
-|[滴滴出行](http://campus.didichuxing.com/campus)|互联网/通信|微信号：|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/DIDI/Problem%20Description%202017.md)|
-|[√][唯品会](http://campus.vip.com/)|互联网/通信|微信号：|2018|2017|
+|[√][滴滴出行](http://campus.didichuxing.com/campus)|互联网|微信号：|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/DIDI/Problem%20Description%202017.md)|
+|[√][唯品会](http://campus.vip.com/)|互联网|微信号：|2018|2017|
 |[√][新浪](http://career.sina.com.cn/welcome.html)|互联网/通信|微信号：|2018|2017|
-|[√][科大讯飞](https://iflytek.cheng95.com/other/campus)|互联网/通信|微信号：|2018|2017|
+|[√][科大讯飞](https://iflytek.cheng95.com/other/campus)|互联网|微信号：|2018|2017|
 |[√][CVTE](http://campus.cvte.com/)|互联网/通信|微信号：|2018|2017|
-|[√][NVIDIA](http://campus.51job.com/nvidia/)|互联网/通信|微信号：|2018|2017|
-|[√][中国银联](https://billcloud.unionpay.com/wxweb/UPJob/index)|互联网/通信|微信号：|2018|2017|01202889|
-|[√][旷视科技](https://www.megvii.com/campus/)|互联网/通信|微信号：|2018|2017|
+|[√][NVIDIA](http://campus.51job.com/nvidia/)|互联网/芯片|微信号：|2018|2017|
+|[T][中国银联](https://billcloud.unionpay.com/wxweb/UPJob/index)|互联网/金融|微信号：|2018|2017|01202889|
+|[√][旷视科技](https://www.megvii.com/campus/)|互联网|微信号：|2018|2017|
 |[√][OPPO](http://oppotqp.zhaopin.com/index.html)|互联网/通信|微信号：|2018|2017|
-|[√][汇顶科技](http://www.goodix.com/campus/)|互联网/通信|微信号：|2018|2017|
+|[√][汇顶科技](http://www.goodix.com/campus/)|互联网/芯片|微信号：|2018|2017|
 
 ### 面试中手撕代码
 
