@@ -9,7 +9,7 @@
 |[√][网易有道](http://job.youdao.com/)|互联网|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/YOUDAO/Problem%20Description%202017.md)||2018-08-08|
 |[√][远景能源](https://recruit.envisioncn.com/)|互联网/能源|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION/Problem%20Description%202018.md)|2017||
 |[√][今日头条](https://job.bytedance.com/campus)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO/Problem%20Description%202018.md)|2017|JFWWNV7||2018-12-31|
-|[~][拼多多](http://www.pinduoduo.com/campus.html)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/PINDUODUO/Problem%20Description%202018.md)|2017||2018-8-3|
+|[~][拼多多](http://www.pinduoduo.com/campus.html)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/PINDUODUO/Problem%20Description%202018.md)|2017||2018-08-03|
 |[T][华为](http://career.huawei.com/reccampportal/campus4_index.html#campus4/pages/home/freshGraduate.html?type=2&faqtype=1)|互联网/通信|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI/Problem%20Description%202018.md)|2017|
 |[-][招商银行信用卡中心](http://cmbcc.zhiye.com/campus)|互联网/金融|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK/Problem%20Description%202018.md)|2017|
 |[√][招银科技](https://cmbnt.cmbchina.com/bulletin/cmbnt2018/index.html)|互联网|2018|2017|6511MSHZ|2018-09-24|
@@ -35,7 +35,7 @@
 |[√][NVIDIA](http://campus.51job.com/nvidia/)|互联网/芯片|2018|2017|
 |[T][中国银联](https://billcloud.unionpay.com/wxweb/UPJob/index)|互联网/金融|2018|2017|01202889|
 |[√][旷视科技](https://www.megvii.com/campus/)|互联网|2018|2017||2018-09-10|
-|[√][OPPO](http://oppotqp.zhaopin.com/index.html)|互联网/通信|2018|2017|
+~~|[~][OPPO](http://oppotqp.zhaopin.com/index.html)|互联网/通信|2018|2017|~~
 |[√][汇顶科技](http://www.goodix.com/campus/)|互联网/芯片|2018|2017||2018-08-17|
 |[√][奇虎360](http://hr.360.cn/)|互联网|2018|2017|XV8t24|2018-08-12|
 |[√][爱奇艺](http://zhaopin.iqiyi.com/)|互联网|2018|2017|YpnrDY|2018-08-17|
