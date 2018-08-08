@@ -19,7 +19,7 @@
 |[√][阿里](https://campus.alibaba.com/index.htm)|互联网|2018|2017||2018-08-17|
 |[√][趋势科技](http://campus.51job.com/trendmicro2018/job.html)|互联网|2018|2017|3358|
 |[~][微软](http://www.joinms.com/cn_c/index.html)|互联网|2018|2017|
-|[√][海康威视](http://campus.hikvision.com/home)|互联网|2018|2017|
+|[T][海康威视](http://campus.hikvision.com/home)|互联网|2018|2017|liweiyi5@hikvision.com||
 |[√][美团点评](https://campus.meituan.com/#/)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MEITUAN/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MEITUAN/Problem%20Description%202017.md)||2018-10-20|
 |[√][中兴](http://job.zte.com.cn/)|互联网/通信|2018|2017|
 |[√][小米](http://hr.xiaomi.com/campus/process)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MI/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MI/Problem%20Description%202017.md)|
