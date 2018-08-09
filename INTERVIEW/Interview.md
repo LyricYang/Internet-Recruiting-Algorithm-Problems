@@ -1,34 +1,33 @@
-# ÃæÊÔÊÖÐ´´úÂë
+# é¢è¯•æ‰‹å†™ä»£ç 
 
 <!-- TOC -->
-* [µÚÒ»Ìâ](#µÚÒ»Ìâ-²éÕÒÄ¿Â¼)
-* [µÚ¶þÌâ](#µÚ¶þÌâ-¿ìËÙÅÅÐò)
-* [µÚÈýÌâ](#µÚÈýÌâ-TOPK)
-* [µÚËÄÌâ](#µÚËÄÌâ-ÐÒÔËÊý)
+* [ç¬¬ä¸€é¢˜](#ç¬¬ä¸€é¢˜-æŸ¥æ‰¾ç›®å½•)
+* [ç¬¬äºŒé¢˜](#ç¬¬äºŒé¢˜-å¿«é€ŸæŽ’åº)
+* [ç¬¬ä¸‰é¢˜](#ç¬¬ä¸‰é¢˜-TOPK)
 <!-- TOC -->
 
-## µÚÒ»Ìâ ²éÕÒÄ¿Â¼
+## ç¬¬ä¸€é¢˜ æŸ¥æ‰¾ç›®å½•
 
-### ÌâÄ¿ÃèÊö
->»ñÈ¡Ò»¸öÄ¿Â¼ÏÂµÄËùÓÐÎÄ¼þ¼ÐºÍÎÄ¼þ£¬°üÀ¨×ÓÎÄ¼þ¼ÐºÍ×ÓÎÄ¼þ
+### é¢˜ç›®æè¿°
+>èŽ·å–ä¸€ä¸ªç›®å½•ä¸‹çš„æ‰€æœ‰æ–‡ä»¶å¤¹å’Œæ–‡ä»¶ï¼ŒåŒ…æ‹¬å­æ–‡ä»¶å¤¹å’Œå­æ–‡ä»¶
 
 ```java
 import java.io.File;
 /*
- * »ñÈ¡Ò»¸öÄ¿Â¼ÏÂµÄËùÓÐÎÄ¼þ¼ÐºÍÎÄ¼þ£¬°üÀ¨×ÓÎÄ¼þ¼ÐºÍ×ÓÎÄ¼þ ¡£
- * ²¢½«ÎÄ¼þ¼ÐºÍÎÄ¼þÃû³Æ´òÓ¡ÔÚ¿ØÖÆÌ¨ÉÏÃæ¡£²¢ÇÒÒªÏÔÊ¾ÎÄ¼þÄ¿Â¼µÄ²ã¼¶
- * ×¢£ºÔËÓÃÁËµÝ¹éµÄËã·¨¡£
+ * èŽ·å–ä¸€ä¸ªç›®å½•ä¸‹çš„æ‰€æœ‰æ–‡ä»¶å¤¹å’Œæ–‡ä»¶ï¼ŒåŒ…æ‹¬å­æ–‡ä»¶å¤¹å’Œå­æ–‡ä»¶ ã€‚
+ * å¹¶å°†æ–‡ä»¶å¤¹å’Œæ–‡ä»¶åç§°æ‰“å°åœ¨æŽ§åˆ¶å°ä¸Šé¢ã€‚å¹¶ä¸”è¦æ˜¾ç¤ºæ–‡ä»¶ç›®å½•çš„å±‚çº§
+ * æ³¨ï¼šè¿ç”¨äº†é€’å½’çš„ç®—æ³•ã€‚
  */
 public class FilePath {
  
   public static void main(String[] args) {
     File dir=new File("/home/coding/workspace/python/");
     //File dir=new File("F:\\");
-    //Èç¹ûÊ¹ÓÃÉÏÊöµÄÅÌ·ûµÄ¸ùÄ¿Â¼£¬»á³öÏÖjava.lang.NullPointerException
-    //ÎªÊ²Ã´£¿
-    getAllFiles(dir,0);//0±íÊ¾×î¶¥²ã
+    //å¦‚æžœä½¿ç”¨ä¸Šè¿°çš„ç›˜ç¬¦çš„æ ¹ç›®å½•ï¼Œä¼šå‡ºçŽ°java.lang.NullPointerException
+    //ä¸ºä»€ä¹ˆï¼Ÿ
+    getAllFiles(dir,0);//0è¡¨ç¤ºæœ€é¡¶å±‚
   }
-  //»ñÈ¡²ã¼¶µÄ·½·¨
+  //èŽ·å–å±‚çº§çš„æ–¹æ³•
   public static String getLevel(int level)
   {
     //A mutable sequence of characters.
@@ -48,7 +47,7 @@ public class FilePath {
     {
       if(files[i].isDirectory())
       {
-        //ÕâÀïÃæÓÃÁËµÝ¹éµÄËã·¨
+        //è¿™é‡Œé¢ç”¨äº†é€’å½’çš„ç®—æ³•
         getAllFiles(files[i],level);
       }
       else {
@@ -59,10 +58,10 @@ public class FilePath {
 }
 ```
 
-## µÚ¶þÌâ ¿ìËÙÅÅÐò
+## ç¬¬äºŒé¢˜ å¿«é€ŸæŽ’åº
 
-### ÌâÄ¿ÃèÊö
->¿ìËÙÅÅÐò
+### é¢˜ç›®æè¿°
+>å¿«é€ŸæŽ’åº
 
 ```java
 public class QuickSort {
@@ -112,12 +111,12 @@ public class QuickSort {
 }
 ```
 
-## µÚÈýÌâ TOPK
+## ç¬¬ä¸‰é¢˜ TOPK
 
-### ÌâÄ¿ÃèÊö
+### é¢˜ç›®æè¿°
 >TopK
 
-- ×î´óµÄK¸öÔªËØ×îÐ¡¶Ñ£¬×îÐ¡µÄK¸öÔªËØ×î´ó¶Ñ
+- æœ€å¤§çš„Kä¸ªå…ƒç´ æœ€å°å †ï¼Œæœ€å°çš„Kä¸ªå…ƒç´ æœ€å¤§å †
 
 ```java
 public class TopK {
@@ -174,7 +173,7 @@ public class TopK {
 }
 ```
 
-- ¿ìÅÅË¼Ïë
+- å¿«æŽ’æ€æƒ³
 
 ```java
 public class TopKSort {
