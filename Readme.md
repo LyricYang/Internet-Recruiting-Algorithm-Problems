@@ -3,7 +3,7 @@
 ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
 |公司|公司类型|2018笔试题|2017笔试题|内推码|截止时间|
-|:---|:----:|:----|:---:|:---:|:---|
+|:---|:----:|:----:|:---:|:---:|:---|
 |[T][网易](http://campus.163.com/#/home)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|222O01Q|2018-08-08|
 |[√][网易游戏](http://game.campus.163.com/index.html)|互联网|2018|2017||2018-08-08|
 |[√][网易有道](http://job.youdao.com/)|互联网|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/YOUDAO/Problem%20Description%202017.md)||2018-08-08|
