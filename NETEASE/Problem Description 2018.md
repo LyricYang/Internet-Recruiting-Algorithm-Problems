@@ -9,6 +9,8 @@
 * [第六题](#第六题)
 * [第七题](#第七题)
 * [第八题](#第八题)
+* [第九题](#第九题)
+* [第十题](#第十题)
 <!-- TOC -->
 
 
@@ -642,3 +644,257 @@ public class Main{
 ```
 - 运行超时:您的程序未能在规定时间内运行结束，请检查是否循环有错或算法复杂度过大。
 case通过率为80.00%
+
+
+
+
+## 第九题
+
+### 题目描述
+>小易觉得高数课太无聊了，决定睡觉，不过他对课上的一些内容挺感兴趣的，所以希望你在老师讲到有趣的部分的时候叫醒他一下。
+你知道了小易对一堂课每分钟知识点的感兴趣程度，并以分数量化，以及他在这堂课上每分钟是否会睡着，你可以叫醒他一次，这会使他在接下来的k分钟内保持清醒。
+你需要选择一种方案最大化小易这堂课听的知识点分值。
+
+
+**输入描述:**
+>第一行n,k(1<=n,k<=10^5)，表示这堂课持续多少分钟，以及叫醒小易一次使他能够保持清醒的时间。
+ 第二行n个数，a1,a2,...,an(1<=ai<=10^4)表示小易对每分钟知识点的感兴趣评分。
+ 第三行n个数，t1,t2,...,tn表示每分钟小易是否清醒，1表示清醒。
+
+**输出描述:**
+>小易这堂课听到的知识点的最大兴趣值。
+
+**输入例子1:**
+```
+6 3
+1 3 5 2 5 4
+1 1 0 1 0 0
+```
+
+**输出例子1:**
+```
+16
+```
+
+### 参考代码
+
+```java
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int k = in.nextInt();
+        int[] score = new int[n];
+        int[] wakeup = new int[n];
+        int sum = 0;
+        for(int i=0;i<n;i++){
+            score[i]=in.nextInt();
+            sum+=score[i];
+        }
+        for(int i=0;i<n;i++){
+            wakeup[i]=in.nextInt();
+        }
+        if(n<=k) System.out.println(sum);
+        else{
+            sum=0;
+            int max=0;
+            for(int i=0;i<n;i++){
+                if(wakeup[i]==1){
+                    sum+=score[i];
+                }else{
+                    int bound = (i+k-1)>=n?n-1:(i+k-1);
+                    int window = 0;
+                    for(int j=i;j<=bound;j++){
+                        if(wakeup[j]==0){
+                            window+=score[j];
+                        }
+                    }
+                    if(window>max){
+                        max=window;
+                    }
+                }
+            }
+            System.out.println(max+sum);
+        }
+    }
+}
+```
+
+## 第十题
+
+### 题目描述
+>又到了丰收的季节，恰好小易去牛牛的果园里游玩。
+牛牛常说他多整个果园的每个地方都了如指掌，小易不太相信，所以他想考考牛牛。
+在果园里有N堆苹果，每堆苹果的数量为ai,小易希望知道从左往右数第x个苹果是属于哪一堆的。
+牛牛觉得问题太简单了，所以希望你来替他回答。
+
+
+**输入描述:**
+>第一行一个数n(1<=n<=10^5)
+ 第二行n个数ai(1<=ai<=1000),表示从左往右数第i堆有多少苹果
+ 第三行一个数m(1<=m<=10^5),表示有m次询问
+ 第四行m个数qi,表示小易希望知道第qi个苹果属于哪一堆。
+
+**输出描述:**
+>m行，第i行输出第qi个苹果属于哪一堆。
+
+**输入例子1:**
+```
+5
+2 7 3 4 9
+3
+1 25 11
+```
+
+**输出例子1:**
+```
+1
+5
+3
+```
+
+### 参考代码
+
+```java
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        int count = in.nextInt();
+        int[] arr = new int[count];
+        for (int i = 0; i < count; i++)
+            arr[i] = in.nextInt();
+        int m = in.nextInt();
+        int[] q = new int[m];
+        for (int i = 0; i < m; i++)
+            q[i] = in.nextInt();
+        int[] res = new int[count];
+        res[0] = arr[0];
+        // 累加
+        for (int i = 1;i < count;i++)
+            res[i] = arr[i] + res[i - 1];
+        // 二分查找
+        for (int i = 0; i < m; i++) {
+            int j = 0, k = count - 1;
+            while (j < k){
+                int mid = (j + k) /2;
+                if (q[i] > res[mid])
+                    j = mid + 1;
+                else if (q[i] < res[mid])
+                    k = mid;
+                else
+                    k = mid;
+            }
+            System.out.println(k + 1);
+        }
+    }
+}
+```
+
+
+## 第十一题
+
+### 题目描述
+>给你n个a,m个z组成所有可能的字符串，并将字符串按字典序从小到大排列，输出第k个字符串。
+
+
+**输入描述:**
+>第一行为三个数，分别为a的个数n,z的个数m,第k个字符串。
+
+**输出描述:**
+>第k个字符串
+
+**输入例子1:**
+```
+2 2 6
+```
+
+**输出例子1:**
+```
+zzaa
+```
+
+### 解题思路
+
+- 刚开始深度优先存储所有字符串，然后取出第k个字符串，通过30%；
+- 通过计算不同等级的组合数，看k在哪一种情况下，比较考验数学分析。
+
+### 参考代码
+
+```java
+import java.util.ArrayList;
+        import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int m = in.nextInt();
+        int k = in.nextInt();
+        ArrayList<String> map = new ArrayList<>();
+        DFS(n,m,map,"");
+        if(k>map.size()) System.out.println(-1);
+        else System.out.println(map.get(k-1));
+    }
+
+    private static void DFS(int n,int m,ArrayList<String> map,String s){
+        if(n==0&&m==0){
+            map.add(s);
+            return;
+        }
+        if(n>0){
+            DFS(n-1,m,map,s+"a");
+        }
+        if(m>0){
+            DFS(n,m-1,map,s+"z");
+        }
+    }
+}
+```
+
+```java
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        int m = in.nextInt();
+        int k = in.nextInt();
+        String res = solve(n,m,k);
+        System.out.println(res);
+    }
+    private static String solve(int a,int z,int k){
+        String out = "";
+        int n = a+z;
+        int s = check(a+z,a,(long)k);
+        if(s != -1) return out;
+        for(int i = 0; i < n; i++) {
+            if (a == 0 || z == 0) break;
+            s=check(a-1+z,a-1,k);
+            if(s==-1){
+                out += "a";
+                a--;
+            }else{
+                k -= s;
+                out += "z";
+                z--;
+            }
+        }
+        for(int i=0;i<a;i++) out+="a";
+        for(int i=0;i<z;i++) out+="z";
+        return out;
+    }
+    private static int check(int a,int b,long lim) {
+        long res = 1;
+        if(b*2>a) b = a-b;
+        for(int i=0;i<b;i++){
+            res*=(a-i);
+            res/=(i+1);
+            if(res>=lim) return -1;
+        }
+        if(res>=lim) return -1;
+        return (int)res;
+    }
+}
+```
+
