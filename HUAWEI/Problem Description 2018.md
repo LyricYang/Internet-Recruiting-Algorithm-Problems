@@ -1,9 +1,12 @@
 # 华为2018校园招聘算法笔试题
 
 <!-- TOC -->
-* [第一题](#第一题)
-* [第二题](#第二题)
-* [第三题](#第三题)
+* [第一题](#第一题-字符串重排)
+* [第二题](#第二题-跳跃比赛)
+* [第三题](#第三题-大数相乘)
+* [第四题](#第四题-找出重复字符并排序)
+* [第五题](#第五题-连续字串)
+* [第六题](#第六题-广告牌)
 <!-- TOC -->
 
 
@@ -227,3 +230,183 @@ public class Main {
 ```
 
 
+## 第四题 找出重复字符并排序
+
+### 题目描述
+>找出输入字符串中的重复字符，再根据ASCII把重复的字符从小到大排序。
+
+**输入描述:**
+>一个长度不超过100的字符串
+
+**输出描述:**
+>排序后的字符串
+
+**样例：**
+```
+输入
+ABCABCdd
+
+输出
+ABCd
+```
+
+```java
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String s = in.nextLine();
+        boolean[] c = new boolean[256];
+        for(int i=0;i<s.length();i++){
+            c[s.charAt(i)]=true;
+        }
+        String res = "";
+        for(int i=0;i<c.length;i++){
+            if(c[i]){
+                res+=(char)i;
+            }
+        }
+        System.out.println(res);
+    }
+}
+```
+
+
+## 第五题 连续字串
+
+### 题目描述
+>给定一串字符，里面有些字符有连续出现的特点，请寻找这些连续出现字符中最长的串，如果最长的字串有多个，请输出字符ASCII码最小的那一串。
+
+**输入描述:**
+>用cin输入一串字符
+
+**输出描述:**
+>用count输出其中最长的字串
+
+**样例：**
+```
+输入
+aaabbbbbccccccccczzzzzzzzz
+
+输出
+cccccccccc
+```
+
+```java
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        String line = in.nextLine();
+        int[] map = new int[256];
+        int count=1;
+        for(int i=1;i<line.length();i++){
+            if(line.charAt(i)==line.charAt(i-1)){
+                count++;
+            }
+            else{
+                if(count>map[line.charAt(i-1)]){
+                    map[line.charAt(i-1)]=count;
+                    count=1;
+                }
+            }
+        }
+        map[line.charAt(line.length()-1)]=count;
+        int max=0;
+        int index=0;
+        for(int i=0;i<256;i++){
+            if(map[i]>max){
+                max=map[i];
+                index=i;
+            }
+        }
+        String res = "";
+        char x= (char)index;
+        for(int i=0;i<max;i++){
+            res+=x;
+        }
+        System.out.println(res);
+    }
+}
+```
+
+## 第六题 广告牌
+
+### 题目描述
+>已知某小镇的房子沿直线分布，给定一个有序整数数组arr，里面的每个值都代表小镇每栋房子的一维坐标点。
+ 现在需要建N个广告牌，广告牌只能建在这些坐标点上，使得每个坐标点离广告牌的总距离最短，请返回这个最短的总距离。
+
+**输入描述:**
+>1. 1<=N<=arr的长度
+ 2. 每个坐标点以最近的广告牌距离作为该坐标点离广告牌的距离；
+ 3. 输入中最后一个为N值，其余为arr值，需要考生自行处理；
+
+**输出描述:**
+>输出为所有坐标点离广告牌的最短总距离
+
+**样例：**
+```
+输入
+1 2 3 4 5 1000 2
+
+输出
+6
+```
+
+```java
+import java.util.*;
+public class Main {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        String line = in.nextLine();
+        String[] strings = line.split(" ");
+        int[] arr = new int[strings.length-1];
+        int N = Integer.valueOf(strings[strings.length-1]);
+        for(int i=0;i<strings.length-1;i++){
+            arr[i]=Integer.valueOf(strings[i]);
+        }
+        ArrayList<Integer> min = new ArrayList<>();
+        ArrayList<Integer> location = new ArrayList<>();
+        DFS(arr,location,arr.length,N,0,min);
+        System.out.println(min.get(0));
+    }
+
+    private static void DFS(int[] arr,ArrayList<Integer> loc,int len,int N,int index,ArrayList<Integer> min){
+        if(loc.size()==N){
+            int distance = caculateDis(loc,arr);
+            if(min.size()==0){
+                min.add(distance);
+            }else{
+                if(distance<min.get(0)){
+                    min.remove(0);
+                    min.add(distance);
+                }
+            }
+            return;
+        }
+        if(index==len) return;
+        DFS(arr,loc,len,N,index+1,min);
+        loc.add(arr[index]);
+        DFS(arr,loc,len,N,index+1,min);
+        loc.remove(loc.size()-1);
+        return;
+    }
+
+    private static int caculateDis(ArrayList<Integer> loc,int[] arr){
+        int len = arr.length;
+        int size = loc.size();
+        int sum = 0;
+        for(int i=0;i<len;i++){
+            int dist = Math.abs(loc.get(0)-arr[i]);
+            for(int j=1;j<size;j++){
+                int temp = Math.abs(loc.get(j)-arr[i]);
+                if(temp<dist){
+                    dist=temp;
+                }
+            }
+            sum+=dist;
+        }
+        return sum;
+    }
+}
+```
