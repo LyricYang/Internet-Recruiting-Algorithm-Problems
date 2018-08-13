@@ -30,7 +30,7 @@
 |[-][滴滴出行](http://campus.didichuxing.com/campus)|互联网|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/DIDI/Problem%20Description%202017.md)|
 |[√][唯品会](http://campus.vip.com/)|互联网|2018|2017||2018-09-12|
 |[√][新浪](http://career.sina.com.cn/welcome.html)|互联网/通信|2018|2017|03UVQ|2018-09-14|
-|[√][科大讯飞](https://iflytek.cheng95.com/other/campus)|互联网|2018|2017||2018-08-25|
+|[√][科大讯飞](https://iflytek.cheng95.com/other/campus)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/IFLYTEK/Problem%20Description%202018.md)|2017||2018-08-25|
 |[√][CVTE](http://campus.cvte.com/)|互联网/通信|2018|2017|
 |[√][NVIDIA](http://campus.51job.com/nvidia/)|互联网/芯片|2018|2017|
 |[T][中国银联](https://billcloud.unionpay.com/wxweb/UPJob/index)|互联网/金融|2018|2017|01202889|
