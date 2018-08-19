@@ -40,6 +40,7 @@
 |[×][奇虎360](http://hr.360.cn/)|互联网|2018|2017|XV8t24|2018-08-12|
 |[√][爱奇艺](http://zhaopin.iqiyi.com/)|互联网|2018|2017|YpnrDY|2018-08-17|
 |[T][ThoughtWorks](https://join.thoughtworks.cn)|互联网|2018|2017|kangzhe/zkang@thoughtworks.com||
+|[√][微众银行](https://webank.cheng95.com/positions/campus_recruitment?channel=1&project_id=2)|互联网|2018|2017|[内推方式](https://www.nowcoder.com/discuss/95863)||
 
 
 
