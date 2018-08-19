@@ -18,7 +18,7 @@
 |[√][腾讯](https://join.qq.com/index.php)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TENCENT/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TENCENT/Problem%20Description%202017.md)|[内推方式](https://www.nowcoder.com/discuss/95653)||
 |[T][阿里](https://campus.alibaba.com/index.htm)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ALiBaba/Problem%20Description%202018.md)|2017|||
 |[√][趋势科技](http://campus.51job.com/trendmicro2018/job.html)|互联网|2018|2017|3358|
-|[~][微软](http://www.joinms.com/cn_c/index.html)|互联网|2018|2017|
+|[√][微软](http://www.joinms.com/cn_c/index.html)|互联网|2018|2017|
 |[T][海康威视](http://campus.hikvision.com/home)|互联网|2018|2017|liweiyi5@hikvision.com||
 |[√][美团点评](https://campus.meituan.com/#/)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MEITUAN/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MEITUAN/Problem%20Description%202017.md)|[内推方式](https://www.nowcoder.com/discuss/95777)|2018-10-20|
 |[√][中兴](http://job.zte.com.cn/)|互联网/通信|2018|2017|[内推方式](https://www.nowcoder.com/discuss/95609)||
