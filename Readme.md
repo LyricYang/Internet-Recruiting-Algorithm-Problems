@@ -11,7 +11,7 @@
 |[√][今日头条](https://job.bytedance.com/campus)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO/Problem%20Description%202018.md)|2017|JFWWNV7||2018-12-31|
 |[√][拼多多](http://www.pinduoduo.com/campus.html)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/PINDUODUO/Problem%20Description%202018.md)|2017||2018-08-28|
 |[T][华为](http://career.huawei.com/reccampportal/campus4_index.html#campus4/pages/home/freshGraduate.html?type=2&faqtype=1)|互联网/通信|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI/Problem%20Description%202018.md)|2017|
-|[-][招商银行信用卡中心](http://cmbcc.zhiye.com/campus)|互联网/金融|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK/Problem%20Description%202018.md)|2017|
+|[√][招商银行信用卡中心](http://cmbcc.zhiye.com/campus)|互联网/金融|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK/Problem%20Description%202018.md)|2017|
 |[T][招银科技](https://cmbnt.cmbchina.com/bulletin/cmbnt2018/index.html)|互联网|2018|2017|6511MSHZ|2018-09-24|
 |[T][携程](http://campus.ctrip.com/)|互联网|2018|2017||2018-08-12|
 |[√][百度](https://talent.baidu.com/external/baidu/campus.html#/campus)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/Baidu/Problem%20Description%202018.md)|2017|
