@@ -38,7 +38,8 @@
 |[√][OPPO](http://oppotqp.zhaopin.com/index.html)|互联网/通信|2018|2017|
 |[T][汇顶科技](http://www.goodix.com/campus/)|互联网/芯片|2018|2017||2018-08-17|
 |[×][奇虎360](http://hr.360.cn/)|互联网|2018|2017|XV8t24|2018-08-12|
-|[√][爱奇艺](http://zhaopin.iqiyi.com/)|互联网|2018|2017|YpnrDY|2018-08-17|
+|[~][爱奇艺](http://zhaopin.iqiyi.com/)|互联网|2018|2017|YpnrDY|2018-08-17|
+|[T][ThoughtWorks](https://join.thoughtworks.cn)|互联网|2018|2017|kangzhe/zkang@thoughtworks.com||
 
 
 
