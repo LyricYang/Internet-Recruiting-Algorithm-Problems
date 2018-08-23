@@ -7,14 +7,14 @@
 |[√][网易](http://campus.163.com/#/home)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/Problem%20Description%202017.md)|222O01Q||
 |[√][网易游戏](http://game.campus.163.com/index.html)|互联网|2018|2017|||
 |[√][网易有道](http://job.youdao.com/)|互联网|2018|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/YOUDAO/Problem%20Description%202017.md)|||
-|[√][远景能源](https://recruit.envisioncn.com/)|互联网/能源|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION/Problem%20Description%202018.md)|2017|[内推方式](https://www.nowcoder.com/discuss/95816)||
+|[T][远景能源](https://recruit.envisioncn.com/)|互联网/能源|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ENVISION/Problem%20Description%202018.md)|2017|[内推方式](https://www.nowcoder.com/discuss/95816)||
 |[√][今日头条](https://job.bytedance.com/campus)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO/Problem%20Description%202018.md)|2017|JFWWNV7||2018-12-31|
 |[√][拼多多](http://www.pinduoduo.com/campus.html)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/PINDUODUO/Problem%20Description%202018.md)|2017|[内推方式](https://www.nowcoder.com/discuss/95741)|2018-08-28|
 |[T][华为](http://career.huawei.com/reccampportal/campus4_index.html#campus4/pages/home/freshGraduate.html?type=2&faqtype=1)|互联网/通信|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI/Problem%20Description%202018.md)|2017|
 |[√][招商银行信用卡中心](http://cmbcc.zhiye.com/campus)|互联网/金融|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK/Problem%20Description%202018.md)|2017|[内推方式](https://www.nowcoder.com/discuss/95862)||
 |[T][招银科技](https://cmbnt.cmbchina.com/bulletin/cmbnt2018/index.html)|互联网|2018|2017|6511MSHZ|2018-09-24|
 |[T][携程](http://campus.ctrip.com/)|互联网|2018|2017||2018-08-12|
-|[√][百度](https://talent.baidu.com/external/baidu/campus.html#/campus)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/Baidu/Problem%20Description%202018.md)|2017|[内推方式](https://www.nowcoder.com/discuss/95931)|2018-8-20|
+|[T][百度](https://talent.baidu.com/external/baidu/campus.html#/campus)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/Baidu/Problem%20Description%202018.md)|2017|[内推方式](https://www.nowcoder.com/discuss/95931)|2018-8-20|
 |[√][腾讯](https://join.qq.com/index.php)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TENCENT/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TENCENT/Problem%20Description%202017.md)|[内推方式](https://www.nowcoder.com/discuss/95653)||
 |[T][阿里](https://campus.alibaba.com/index.htm)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/ALiBaba/Problem%20Description%202018.md)|2017|||
 |[√][趋势科技](http://campus.51job.com/trendmicro2018/job.html)|互联网|2018|2017|3358|
@@ -38,7 +38,7 @@
 |[√][OPPO](http://oppotqp.zhaopin.com/index.html)|互联网/通信|2018|2017|
 |[T][汇顶科技](http://www.goodix.com/campus/)|互联网/芯片|2018|2017||2018-08-17|
 |[×][奇虎360](http://hr.360.cn/)|互联网|2018|2017|XV8t24|2018-08-12|
-|[√][爱奇艺](http://zhaopin.iqiyi.com/)|互联网|2018|2017|YpnrDY|2018-08-17|
+|[×][爱奇艺](http://zhaopin.iqiyi.com/)|互联网|2018|2017|YpnrDY|2018-08-17|
 |[T][ThoughtWorks](https://join.thoughtworks.cn)|互联网|2018|2017|kangzhe/zkang@thoughtworks.com||
 |[√][微众银行](https://webank.cheng95.com/positions/campus_recruitment?channel=1&project_id=2)|互联网|2018|2017|[内推方式](https://www.nowcoder.com/discuss/95863)||
 
