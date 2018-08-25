@@ -1,8 +1,10 @@
-# 算法笔试题
-
-## 公司招聘算法笔试题解答
+# 知识总结
 
 ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
+
+## 算法笔试题
+
+### 公司招聘算法笔试题解答
 
 |公司|公司类型|2018笔试题|2017笔试题|内推码|截止时间|
 |:---|:----:|:----:|:---:|:---:|:---|
@@ -13,7 +15,7 @@
 |[√][今日头条](https://job.bytedance.com/campus)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/TOUTIAO/Problem%20Description%202018.md)|2017|||2018-12-31|
 |[T][拼多多](http://www.pinduoduo.com/campus.html)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/PINDUODUO/Problem%20Description%202018.md)|2017||2018-08-28|
 |[T][华为](http://career.huawei.com/reccampportal/campus4_index.html#campus4/pages/home/freshGraduate.html?type=2&faqtype=1)|互联网/通信|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/HUAWEI/Problem%20Description%202018.md)|2017|
-|[√][招商银行信用卡中心](http://cmbcc.zhiye.com/campus)|互联网/金融|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK/Problem%20Description%202018.md)|2017|[内推方式](https://www.nowcoder.com/discuss/95862)||
+|[T][招商银行信用卡中心](http://cmbcc.zhiye.com/campus)|互联网/金融|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/MERCHANTSBANK/Problem%20Description%202018.md)|2017|[内推方式](https://www.nowcoder.com/discuss/95862)||
 |[T][招银科技](https://cmbnt.cmbchina.com/bulletin/cmbnt2018/index.html)|互联网|2018|2017||2018-09-24|
 |[T][携程](http://campus.ctrip.com/)|互联网|2018|2017||2018-08-12|
 |[T][百度](https://talent.baidu.com/external/baidu/campus.html#/campus)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/Baidu/Problem%20Description%202018.md)|2017|||
@@ -33,18 +35,18 @@
 |[√][唯品会](http://campus.vip.com/)|互联网|2018|2017||2018-09-12|
 |[√][新浪](http://career.sina.com.cn/welcome.html)|互联网/通信|2018|2017|03UVQ|2018-09-14|
 |[√][科大讯飞](https://iflytek.cheng95.com/other/campus)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/IFLYTEK/Problem%20Description%202018.md)|2017|[内推方式](https://www.nowcoder.com/discuss/95070)|2018-08-25|
-|[√][CVTE](http://campus.cvte.com/)|互联网/通信|2018|2017|[内推方式](https://www.nowcoder.com/discuss/95597)||
+|[T][CVTE](http://campus.cvte.com/)|互联网/通信|2018|2017|[内推方式](https://www.nowcoder.com/discuss/95597)||
 |[√][NVIDIA](http://campus.51job.com/nvidia/)|互联网/芯片|2018|2017|
 |[×][中国银联](https://billcloud.unionpay.com/wxweb/UPJob/index)|互联网/金融|2018|2017|01202889|
 |[√][旷视科技](https://www.megvii.com/campus/)|互联网|2018|2017||2018-09-10|[内推方式](https://www.nowcoder.com/discuss/88082)||
-|[√][OPPO](http://oppotqp.zhaopin.com/index.html)|互联网/通信|2018|2017|
+|[×][OPPO](http://oppotqp.zhaopin.com/index.html)|互联网/通信|2018|2017|
 |[×][汇顶科技](http://www.goodix.com/campus/)|互联网/芯片|2018|2017||2018-08-17|
 |[×][奇虎360](http://hr.360.cn/)|互联网|2018|2017|XV8t24|2018-08-12|
 |[×][爱奇艺](http://zhaopin.iqiyi.com/)|互联网|2018|2017|YpnrDY|2018-08-17|
 |[×][ThoughtWorks](https://join.thoughtworks.cn)|互联网|2018|2017|kangzhe/zkang@thoughtworks.com||
 |[T][微众银行](https://webank.cheng95.com/positions/campus_recruitment?channel=1&project_id=2)|互联网|2018|2017|[内推方式](https://www.nowcoder.com/discuss/95863)||
 
-## [程序员代码面试指南](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/README.md)
+### [程序员代码面试指南](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/README.md)
 
 
 ## 说明
