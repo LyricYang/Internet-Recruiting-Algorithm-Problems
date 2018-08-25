@@ -1,4 +1,6 @@
-# 公司招聘算法笔试题解答
+# 算法笔试题
+
+## 公司招聘算法笔试题解答
 
 ![license](https://img.shields.io/github/license/mashape/apistatus.svg)
 
@@ -42,6 +44,7 @@
 |[×][ThoughtWorks](https://join.thoughtworks.cn)|互联网|2018|2017|kangzhe/zkang@thoughtworks.com||
 |[T][微众银行](https://webank.cheng95.com/positions/campus_recruitment?channel=1&project_id=2)|互联网|2018|2017|[内推方式](https://www.nowcoder.com/discuss/95863)||
 
+## [程序员代码面试指南](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/README.md)
 
 
 ## 说明
