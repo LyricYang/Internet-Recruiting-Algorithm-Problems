@@ -229,3 +229,155 @@ public class TopKSort {
     }
 }
 ```
+
+## 第四题 二叉查找树
+
+### 题目描述
+>实现一棵二叉查找树的数据结构
+
+```java
+public class Main {
+
+    static class Node {
+        public int val;
+        public Node left;
+        public Node right;
+        public Node(int val){
+            this.val = val;
+        }
+    }
+
+    public static void main(String[] args) {
+        Node root = new Node(10);
+        inputVal(root,8);
+        inputVal(root,15);
+        inputVal(root,1);
+        inputVal(root,4);
+        inputVal(root,25);
+        inputVal(root,43);
+    }
+
+    public static void inputVal(Node root,int val){
+        if(root.val>val&&root.left==null){
+            root.left = new Node(val);
+        }else if(root.val<val&&root.right==null){
+            root.right = new Node(val);
+        }else{
+            if(root.val>val){
+                inputVal(root.left,val);
+            }else{
+                inputVal(root.right,val);
+            }
+        }
+        return;
+    }
+}
+```
+
+## 第五题 LRU
+
+### 题目描述
+>实现LRU方式
+
+```java
+public class LRU<K, V> implements Iterable<K> {
+
+    private Node head;
+    private Node tail;
+    private HashMap<K, Node> map;
+    private int maxSize;
+
+    private class Node {
+
+        Node pre;
+        Node next;
+        K k;
+        V v;
+
+        public Node(K k, V v) {
+            this.k = k;
+            this.v = v;
+        }
+    }
+
+    public LRU(int maxSize) {
+
+        this.maxSize = maxSize;
+        this.map = new HashMap<>(maxSize * 4 / 3);
+
+        head = new Node(null, null);
+        tail = new Node(null, null);
+
+        head.next = tail;
+        tail.pre = head;
+    }
+
+    public V get(K key) {
+
+        if (!map.containsKey(key)) {
+            return null;
+        }
+
+        Node node = map.get(key);
+        unlink(node);
+        appendHead(node);
+
+        return node.v;
+    }
+
+    public void put(K key, V value) {
+
+        if (map.containsKey(key)) {
+            Node node = map.get(key);
+            unlink(node);
+        }
+
+        Node node = new Node(key, value);
+        map.put(key, node);
+        appendHead(node);
+
+        if (map.size() > maxSize) {
+            Node toRemove = removeTail();
+            map.remove(toRemove);
+        }
+    }
+
+    private void unlink(Node node) {
+        Node pre = node.pre;
+        node.pre = node.next;
+        node.next = pre;
+    }
+
+    private void appendHead(Node node) {
+        node.next = head.next;
+        head.next = node;
+    }
+
+    private Node removeTail() {
+        Node node = tail.pre;
+        node.pre = tail;
+        return node;
+    }
+
+    @Override
+    public Iterator<K> iterator() {
+
+        return new Iterator<K>() {
+
+            private Node cur = head.next;
+
+            @Override
+            public boolean hasNext() {
+                return cur != tail;
+            }
+
+            @Override
+            public K next() {
+                Node node = cur;
+                cur = cur.next;
+                return node.k;
+            }
+        };
+    }
+}
+```
