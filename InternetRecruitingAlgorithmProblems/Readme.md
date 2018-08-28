@@ -36,8 +36,8 @@
 |[√][旷视科技](https://www.megvii.com/campus/)|互联网|2018|2017||2018-09-10|[内推方式](https://www.nowcoder.com/discuss/88082)||
 |[×][OPPO](http://oppotqp.zhaopin.com/index.html)|互联网/通信|2018|2017|
 |[×][汇顶科技](http://www.goodix.com/campus/)|互联网/芯片|2018|2017||2018-08-17|
-|[×][奇虎360](http://hr.360.cn/)|互联网|2018|2017|XV8t24|2018-08-12|
-|[×][爱奇艺](http://zhaopin.iqiyi.com/)|互联网|2018|2017|YpnrDY|2018-08-17|
-|[×][ThoughtWorks](https://join.thoughtworks.cn)|互联网|2018|2017|kangzhe/zkang@thoughtworks.com||
+|[×][奇虎360](http://hr.360.cn/)|互联网|[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/InternetRecruitingAlgorithmProblems/360/Problem%20Description%202018.md)|2017|
+|[×][爱奇艺](http://zhaopin.iqiyi.com/)|互联网|2018|2017|
+|[×][ThoughtWorks](https://join.thoughtworks.cn)|互联网|2018|2017|
 |[T][微众银行](https://webank.cheng95.com/positions/campus_recruitment?channel=1&project_id=2)|互联网|2018|2017|[内推方式](https://www.nowcoder.com/discuss/95863)||
 
