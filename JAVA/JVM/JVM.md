@@ -4,7 +4,7 @@
 
 # 虚拟机（JVM）
 
-<div align="center"> <img src="https://upload-images.jianshu.io/upload_images/54256-cea8bcf9e1be3413.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" width="400"/> </div><br>
+<div align="center"> <img src="https://upload-images.jianshu.io/upload_images/54256-cea8bcf9e1be3413.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" width="600"/> </div><br>
 
 - JDK（Java Development Kit）是面向开发人员使用的软件开发包，它提供了Java的开发环境和运行环境；
 - JRE（Java Runtime Environment）是指Java的运行环境，是面向使用者的；
@@ -14,7 +14,7 @@
 
 ### JVM运行时数据区
 
-<div align="center"> <img src="https://upload-images.jianshu.io/upload_images/54256-cea8bcf9e1be3413.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" width="400"/> </div><br>
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904144714.png" width="400"/> </div><br>
 
 
 - **程序计数器**
@@ -23,12 +23,13 @@
 
 - **虚拟机栈**
 
-![](index_files/20180904090833.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904090833.png" width="400"/> </div><br>
+
 虚拟机栈线程私有，生命周期与线程相同。每个方法在执行的同时都会创建一个栈帧用于存储局部变量表，操作数栈，动态链接，方法出口等。从方法调用直至执行完成的过程，就对应着一个栈帧在 Java 虚拟机栈中入栈和出栈的过程。
 局部变量表存放了编译期可知的各种基本类型、对象引用、returnAddress类型（指向一条字节码指令的地址）。
 该区域可能抛出以下异常：
- * 当线程请求的栈深度超过最大值，会抛出 StackOverflowError 异常；
- * 栈进行动态扩展时如果无法申请到足够内存，会抛出 OutOfMemoryError 异常。
+    * 当线程请求的栈深度超过最大值，会抛出 StackOverflowError 异常；
+    * 栈进行动态扩展时如果无法申请到足够内存，会抛出 OutOfMemoryError 异常。
 
 - **本地方法栈**
 
@@ -39,8 +40,8 @@
 Java堆是被所有线程共享的一块内存区域，唯一目的是存放对象实例。Java堆是垃圾收集器管理的主要区域（GC堆）。
 堆不需要连续内存，并且可以动态增加其内存，增加失败会抛出 OutOfMemoryError 异常。
 现代的垃圾收集器基本都是采用分代收集算法，其主要的思想是针对不同类型的对象采取不同的垃圾回收算法，可以将堆分成两块：
- * 新生代（Young Generation）
- * 老年代（Old Generation）
+  * 新生代（Young Generation）
+  * 老年代（Old Generation）
 
 - **方法区**
 
@@ -55,11 +56,12 @@ Java堆是被所有线程共享的一块内存区域，唯一目的是存放对�
 ### 对象的访问定位
 
 目前主流的访问方式有使用句柄和直接指针两种。
+
 **句柄访问：**Java堆中将会划分一块内存来作为句柄池，reference中存储的就是对象的句柄地址，而句柄中包含了对象实例数据与类型数据各自的具体地址信息。
-![](index_files/20180904100852.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904100852.png" width="400"/> </div><br>
 
 **直接指针访问：**java堆对象分布中就必须考虑如何放置访问类型数据的相关信息，reference存储的直接就时对象地址。
-![](index_files/20180904100911.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904100911.png" width="400"/> </div><br>
 
 这两种对象的访问方式各有优势，使用句柄访问最大的好处就是reference中存储的是稳定的句柄地址，在对象被移动时，只用修改句柄中的实例数据指针，而reference本身不需要修改！
 直接访问对象方式的好处就是，减少一次指针定位的时间开销，由于对象的访问是非常频繁的，因此这类开销积少成多也是一项非常的执行成本。
@@ -137,7 +139,7 @@ obj = null;
 - 方法区中类静态属性引用的对象
 - 方法区中的常量引用的对象
 
-![](index_files/20180904102146.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904102146.png" width="400"/> </div><br>
 
 #### 方法区的回收
 
@@ -166,7 +168,7 @@ obj = null;
 - 标记和清除过程效率都不高；
 - 会产生大量不连续的内存碎片，导致无法给大对象分配内存
 
-![](index_files/20180904103535.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904103535.png" width="400"/> </div><br>
 
 #### 复制算法
 
@@ -174,17 +176,18 @@ obj = null;
 
 主要不足是只使用了内存的一半。
 
-![](index_files/20180904103813.png)
+
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904103813.png" width="400"/> </div><br>
 
 #### 标记 - 整理
 
 标记过程仍然和“标记-清除”算法一样，但后续步骤不是直接对可回收对象进行清理，而是让所有存活对象都向一端移动，然后直接清理掉端边界以外的内存。
 
-![](index_files/20180904104143.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904104143.png" width="400"/> </div><br>
 
 ### 垃圾收集器
 
-![](index_files/20180904104314.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904104314.png" width="400"/> </div><br>
 
 **安全点**，即程序执行时并非在所有地方能停顿下来开始GC，只有到达安全点时才能暂停。
 **安全区域**，是指一段代码片段之中，引用关系不会发生变化。在这个区域中的任意地方开始GC都是安全的。
@@ -194,14 +197,14 @@ obj = null;
 它以**串行**的方式执行。它是**单线程**的收集器，只会使用一个线程进行垃圾收集工作。它的优点是**简单高效**，对于单个 CPU 环境来说，由于没有线程交互的开销，因此拥有最高的单线程收集效率。
 
 它是 Client 模式下的默认新生代收集器，因为在该应用场景下，分配给虚拟机管理的内存一般来说不会很大。Serial 收集器收集几十兆甚至一两百兆的新生代停顿时间可以控制在一百多毫秒以内，只要不是太频繁，这点停顿是可以接受的。
-![](index_files/20180904105224.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904105224.png" width="400"/> </div><br>
 
 #### ParNew 收集器
 
 它是 Serial 收集器的多线程版本。是 Server 模式下的虚拟机首选新生代收集器，除了性能原因外，主要是因为除了 Serial 收集器，只有它能与 CMS 收集器配合工作。
 默认开启的线程数量与 CPU 数量相同，可以使用 -XX:ParallelGCThreads 参数来设置线程数。
 
-![](index_files/20180904105552.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904105552.png" width="400"/> </div><br>
 
 #### Parallel Scavenge 收集器
 
@@ -228,7 +231,8 @@ obj = null;
 
 在注重吞吐量以及 CPU 资源敏感的场合，都可以优先考虑 Parallel Scavenge 加 Parallel Old 收集器。
 
-![](index_files/20180904110354.png)
+
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904110354.png" width="400"/> </div><br>
 
 #### CMS 收集器
 
@@ -249,7 +253,7 @@ CMS（Concurrent Mark Sweep），Mark Sweep 指的是标记 - 清除算法。
 *   无法处理浮动垃圾，可能出现 Concurrent Mode Failure。浮动垃圾是指并发清除阶段由于用户线程继续运行而产生的垃圾，这部分垃圾只能到下一次 GC 时才能进行回收。由于浮动垃圾的存在，因此需要预留出一部分内存，意味着 CMS 收集不能像其它收集器那样等待老年代快满的时候再回收。如果预留的内存不够存放浮动垃圾，就会出现 Concurrent Mode Failure，这时虚拟机将临时启用 Serial Old 来替代 CMS。
 *   标记 - 清除算法导致的空间碎片，往往出现老年代空间剩余，但无法找到足够大连续空间来分配当前对象，不得不提前触发一次 Full GC。
 
-![](index_files/20180904110413.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904110413.png" width="400"/> </div><br>
 
 #### G1 收集器
 
@@ -259,14 +263,14 @@ G1收集器是一款面向服务端的垃圾收集器。G1跟踪各个Region里�
 
 在G1中，还有一种特殊的区域，叫Humongous区域。它专门用来存放巨型对象。如果一个H区装不下一个巨型对象，那么G1会寻找连续的H分区来存储。
 
-![](index_files/20180903190516.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180903190516.png" width="400"/> </div><br>
 
 
 - **对象之间的引用**
 
 G1中每个Region都有一个与之对应的Remembered Set,虚拟机发现程序在对Reference类型的数据进行写操作时，会产生一个Write Barrier暂时中断写操作，检查Reference引用的对象是否处于不同的Region之中，如果是，便通过CardTable把相关引用信息记录到被引用对象所属的Region的Remembered Set之中。
 
-![](index_files/20180903192613.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180903192613.png" width="400"/> </div><br>
 
 - **运作步骤**
  1. 初始标记：标记GC Root能直接关联的对象，并修改TAMS
@@ -274,7 +278,7 @@ G1中每个Region都有一个与之对应的Remembered Set,虚拟机发现程序
  3. 最终标记：修正在并发标记期间因用户程序继续运作而导致标记产生变动的那一部分标记记录，并行执行。
  4. 筛选回收：首先对各个Region的回收价值和成本进行排序，根据用户所期望的GC停顿时间来制定回收计划。
 
-![](index_files/20180904110706.png)
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904110706.png" width="400"/> </div><br>
 
 - **G1收集器的特点**
  - 并行与并发：G1能充分利用多CPU,多核的硬件优势来缩短Stop—The—World停顿的时间，部分其它收集器原本需要停顿用户线程执行的GC动作， G1依然可以通过并发的方式让用户线程继续执行。
@@ -286,7 +290,7 @@ G1中每个Region都有一个与之对应的Remembered Set,虚拟机发现程序
 >类从被加载到虚拟机内存中开始，到卸载出内存为止，它的整个生命周期包括：**加载（Loading）**、**验证（Verification）**、**准备(Preparation)**、**解析(Resolution)**、**初始化(Initialization)**、**使用(Using)**和**卸载(Unloading)**7个阶段。其中准备、验证、解析3个部分统称为连接（Linking）。
 加载、验证、准备、初始化和卸载这5个阶段的顺序是确定的，类的加载过程必须按照这种顺序按部就班地开始，而解析阶段则不一定：它在某些情况下可以在初始化阶段之后再开始，这是为了支持Java语言的运行时绑定（也称为**动态绑定或晚期绑定**）。
 
-<center>![](index_files/2dd4227f-d2ee-4c2b-9cd6-edc6afae4543.png)</center>
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904145923.png" width="400"/> </div><br>
 
 ### 类的加载过程
 
@@ -347,13 +351,9 @@ public static int value=123;
 虚拟机规范中并没有强制约束何时进行加载，但是规范严格规定了有且只有下列五种情况必须对类进行初始化（加载、验证、准备都会随之发生）：
 
 *   遇到 new、getstatic、putstatic、invokestatic 这四条字节码指令时，如果类没有进行过初始化，则必须先触发其初始化。最常见的生成这 4 条指令的场景是：使用 new 关键字实例化对象的时候；读取或设置一个类的静态字段（被 final 修饰、已在编译期把结果放入常量池的静态字段除外）的时候；以及调用一个类的静态方法的时候。
-
 *   使用 java.lang.reflect 包的方法对类进行反射调用的时候，如果类没有进行初始化，则需要先触发其初始化。
-
 *   当初始化一个类的时候，如果发现其父类还没有进行过初始化，则需要先触发其父类的初始化。
-
 *   当虚拟机启动时，用户需要指定一个要执行的主类（包含 main() 方法的那个类），虚拟机会先初始化这个主类；
-
 *   当使用 JDK 1.7 的动态语言支持时，如果一个 java.lang.invoke.MethodHandle 实例最后的解析结果为 REF_getStatic, REF_putStatic, REF_invokeStatic 的方法句柄，并且这个方法句柄所对应的类没有进行过初始化，则需要先触发其初始化；
 
 #### 被动引用
@@ -397,7 +397,8 @@ System.out.println(ConstClass.HELLOWORLD);
 #### 双亲委派模型
 该模型要求除了顶层的启动类加载器外，其余的类加载器都应有自己的父类加载器。这里类加载器之间的父子关系一般通过组合（Composition）关系来实现，而不是通过继承（Inheritance）的关系实现。
 
-<center>![](index_files/5da92c08-63f1-4c41-91cc-6eddccb05f69.jpg)</center>
+
+<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/tree/master/JAVA/IMG/20180904150027.png" width="400"/> </div><br>
 
 若一个类加载器收到类加载请求，他首先不会自己尝试去加载这个类，而是把这个请求委派给父类加载器去完成，每一层类加载器都是如此，所以所有请求都会传送到顶层的启动类加载器中，只有当父类加载器反馈自己无法完成这个加载请求(它的搜索范围没找到)，子加载器才会自己尝试去加载。
 
@@ -488,8 +489,6 @@ set JAVA_OPTS=
 - 对于生命周期比Activity长的内部类对象，并且内部类中使用了外部类的成员变量，可以这样做避免内存泄漏：
  - 将内部类改为静态内部类
  - 静态内部类中使用弱引用来引用外部类的成员变量
-
-<center>![](index_files/ac8bddb2-6a79-48f5-8db9-b0a5927bb5ba.jpg)</center>
 
 
 
