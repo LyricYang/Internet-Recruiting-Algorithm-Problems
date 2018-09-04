@@ -3,7 +3,8 @@
 ---
 
 # 虚拟机（JVM）
-<center>![](https://upload-images.jianshu.io/upload_images/54256-cea8bcf9e1be3413.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700)</center>
+
+<div align="center"> <img src="https://upload-images.jianshu.io/upload_images/54256-cea8bcf9e1be3413.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" width="400"/> </div><br>
 
 - JDK（Java Development Kit）是面向开发人员使用的软件开发包，它提供了Java的开发环境和运行环境；
 - JRE（Java Runtime Environment）是指Java的运行环境，是面向使用者的；
@@ -13,12 +14,15 @@
 
 ### JVM运行时数据区
 
-<center>![](index_files/3b0c4fd4-ebe3-4164-b2dc-3b8b89f74c1a.jpg)</center>
+<div align="center"> <img src="https://upload-images.jianshu.io/upload_images/54256-cea8bcf9e1be3413.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/700" width="400"/> </div><br>
+
 
 - **程序计数器**
+
 程序计数器是一块较小的内存空间，当前线程所执行的字节码的行号指示器。分支、跳转、循环、异常处理、线程恢复等基础功能都需要依赖程序计数器完成。如果线程正在执行一个Java方法，这个计数器记录的是正在执行的虚拟机字节码指令的地址；如果正在执行Native方法，这个计数器值为空。（没有OutOfMemoryError情况）
 
 - **虚拟机栈**
+
 ![](index_files/20180904090833.png)
 虚拟机栈线程私有，生命周期与线程相同。每个方法在执行的同时都会创建一个栈帧用于存储局部变量表，操作数栈，动态链接，方法出口等。从方法调用直至执行完成的过程，就对应着一个栈帧在 Java 虚拟机栈中入栈和出栈的过程。
 局部变量表存放了编译期可知的各种基本类型、对象引用、returnAddress类型（指向一条字节码指令的地址）。
@@ -27,9 +31,11 @@
  * 栈进行动态扩展时如果无法申请到足够内存，会抛出 OutOfMemoryError 异常。
 
 - **本地方法栈**
+
 本地方法栈为虚拟机使用到的Native方法服务。
 
 - **Java堆**
+
 Java堆是被所有线程共享的一块内存区域，唯一目的是存放对象实例。Java堆是垃圾收集器管理的主要区域（GC堆）。
 堆不需要连续内存，并且可以动态增加其内存，增加失败会抛出 OutOfMemoryError 异常。
 现代的垃圾收集器基本都是采用分代收集算法，其主要的思想是针对不同类型的对象采取不同的垃圾回收算法，可以将堆分成两块：
@@ -37,11 +43,13 @@ Java堆是被所有线程共享的一块内存区域，唯一目的是存放对�
  * 老年代（Old Generation）
 
 - **方法区**
+
 用于存放已被加载的类信息、常量、静态变量、即时编译器编译后的代码等数据。
 和堆一样不需要连续的内存，并且可以动态扩展，动态扩展失败一样会抛出 OutOfMemoryError 异常。
 对这块区域进行垃圾回收的主要目标是对常量池的回收和对类的卸载，但是一般比较难实现。
 
 - **运行时常量池**
+
 运行时常量池是方法区的一部分。用于存放编译期生成的各种字面量和符号引用。除了保存Class文件中描述的符号引用外，还会把翻译出来的直接引用存储在运行时常量池中。除了在编译期生成的常量，还允许动态生成，例如 String 类的 intern()。
 
 ### 对象的访问定位
