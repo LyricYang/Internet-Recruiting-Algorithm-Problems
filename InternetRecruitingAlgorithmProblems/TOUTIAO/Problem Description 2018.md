@@ -398,3 +398,403 @@ public class Main {
     }
 }
 ```
+
+
+## 第六题 抖音红人
+
+### 题目描述
+>抖音工程师想要找到抖音里的红人！假设用户数为N，有M个关注关系对（A,B）。（A,B）表示用户A关注了用户B。关注关系具有传递性，例如：用户A关注了用户B，用户B关注了用户C，那么认为用户A间接关注了C。如果一个用户被所有N个用户直接或者间接关注，那么我们认为这个用户就是抖音红人。求抖音红人的总数。
+
+**输入描述：**
+>第一行一个整数，代表N
+第二行一个整数，代表M
+
+**输出描述：**
+>一行一个整数，表示答案
+
+**样例：**
+```
+输入：
+3
+3
+1 2 2 1 2 3
+输出：
+1
+```
+
+### 参考代码
+```java
+YANG:
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
+        int M = in.nextInt();
+        int[][] graph = new int[N+1][N+1];
+        for(int i=1;i<=N;i++){
+            graph[i][i]=1;
+        }
+        for(int i=0;i<M;i++){
+            int v1 = in.nextInt();
+            int v2 = in.nextInt();
+            graph[v1][v2]=1;
+        }
+        for(int i=1;i<=N;i++){
+            HashSet<Integer> set = new HashSet<>();
+            set.add(i);
+            for(int j=1;j<=N;j++){
+                if(!set.contains(j)){
+                    if(graph[i][j]==1){
+                        set.add(j);
+                        int index=j;
+                        for(int k=1;k<=N;k++){
+                            if(graph[j][k]==1){
+                                graph[i][k]=1;
+                                if(index>k){
+                                    index=k;
+                                }
+                            }
+                        }
+                        if(index<j){
+                            j=index-1;
+                        }
+                    }
+                }
+            }
+        }
+        int result = 0;
+        for(int i=1;i<=N;i++){
+            int sum = 0;
+            for(int j=1;j<=N;j++){
+                sum+=graph[j][i];
+            }
+            if(sum==N){
+                result++;
+            }
+        }
+        System.out.println(result);
+    }
+}
+```
+
+## 第七题 UTF-8校验
+
+### 题目描述
+>一个UTF8字符的长度可能是1到4个字节。其编码规则如下：对于一个字节长的UTF-8字符，第一个bit是0，后面的bit都是它的Unicode码;
+对于n字节长的UTF8字符，前n个bits都是1，第n+1bit是0，接下来n-1个字节的前两个bits都是10。
+
+```java
+Char.number range  |   UTF-8 octet sequence
+   (hexadecimal)   |        (binary)
+-------------------------------------------
+0000 0000~0000 007F|  0xxxxxxx
+0000 0080~0000 07FF|  110xxxxx 10xxxxxx
+0000 0800~0000 FFFF|  1110xxxx 10xxxxxx 10xxxxxx
+0001 0000~0010 FFFF|  11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
+```
+
+>给定一个整数数组表示的数据，判断其是否是合法的UTF-8编码。
+注意：每个整数只有最低8位用于存储数据。即：输入的每个整数代表一个byte
+
+
+**输入描述：**
+>第一行一个整数，代表数组长度N
+第二行空格分隔的N个整数
+
+**输出描述：**
+>1表示合法，0代表不合法
+
+**样例：**
+```
+输入：
+3
+197 130 1
+输出：
+1
+```
+
+### 参考代码
+```java
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        while (in.hasNext()) {
+            int M = in.nextInt();
+            int[] data = new int[M];
+            for (int i = 0; i < M; i++) {
+                data[i] = in.nextInt();
+            }
+            System.out.println(validUtf8(data));
+        }
+    }
+
+    public static int validUtf8(int[] data) {
+        if (data == null || data.length == 0) return 0;
+        for (int i = 0; i < data.length; i++) {
+            if (data[i] > 255) return 0;
+            int moreChecks = 0; 
+            if ((data[i] & 0b10000000) == 0) moreChecks = 0;
+            else if ((data[i] & 0b11100000) == 0b11000000) moreChecks = 1;
+            else if ((data[i] & 0b11110000) == 0b11100000) moreChecks = 2;
+            else if ((data[i] & 0b11111000) == 0b11110000) moreChecks = 3;
+            else return 0;
+            for (int j = 1; j <= moreChecks; j++) {
+                if (i + j >= data.length) return 0;
+                if ((data[i + j] & 0b11000000) != 0b10000000) return 0;
+            }
+            i = i + moreChecks;
+        }
+        return 1;
+    }
+}
+```
+
+
+## 第八题 IP还原
+
+### 题目描述
+>工程师校长的代码Bug了。在上报用户IP的时候，漏掉了"."符号，例如10.0.0.1变成了10001。请你帮小张对这些异常数据进行处理，还原所有可能的原始IP，输出可能的原始IP的数量。
+
+**输入描述：**
+>第一行一个字符串，代表抹掉.符号的ip
+
+**输出描述：**
+>一行一个整数，表示答案
+
+**样例：**
+```
+输入：
+8888
+输出：
+1
+```
+
+### 参考代码
+```java
+import java.util.*;
+public class Main {
+    public static void main(String[]args){
+        Scanner in=new Scanner(System.in);
+        while(in.hasNext()){
+            String str=in.nextLine();
+            int res=restoreIpAddresses(str);
+            System.out.println(res);
+        }
+    }
+    public static int restoreIpAddresses(String s) {
+        ArrayList<String> res = new ArrayList<String>();
+        if (s == null || s.length() < 4 || s.length() > 12) {
+            return 0;
+        }
+        StringBuilder tmp = new StringBuilder();
+        depthFS(0, 0, s, tmp, res);
+        return res.size();
+    }
+
+    public static void depthFS(int count, int index, String s, StringBuilder tmp,
+                               ArrayList<String> res) {
+        if (count == 4 && index == s.length()) {
+            res.add(tmp.toString().substring(0, tmp.length() - 1));
+            return;
+        } else {
+            for (int i = 1; i <= 3 && index + i <= s.length(); i++) {
+                String tmpStr = s.substring(index, index + i);
+                if (isValid(tmpStr)) {
+                    int bt = tmp.length();
+                    int ed = tmp.length() + tmpStr.length();
+                    tmp.append(tmpStr).append(".");
+                    depthFS(count + 1, index + i, s, tmp, res);
+                    tmp.delete(bt, ed + 1);
+                }
+            }
+        }
+    }
+
+    public static boolean isValid(String s) {
+        if (s.charAt(0) == '0') {
+            return s.equals("0");
+        }
+
+        int num = Integer.parseInt(s);
+
+        return num > 0 && num <= 255;
+    }
+}
+```
+
+
+## 第九题 组织优化
+
+### 题目描述
+>随着公司的快速发展，基层团队越来越多。近期公司希望对部门重新做个划分，尽可能把紧密合作的团队放在同一个部门。
+给定一个M*M的2维数组，每个值1的元素代表一个团队。如果2个团队在上下或左右的方向上相邻，说明2个团队有紧密合作关系。需要把合作紧密的团队放在一起，形成一个部门；没有合作关系的团队，放在不同的部门。
+判断给定输入中，有多少个部门。
+
+```java
+例如，给定一个二维数组：
+1 0 0 1 1
+1 0 0 1 1
+0 0 1 0 0
+0 0 1 0 0
+0 0 1 0 0
+其中九个团队，一共需要组成3个部门，分别是：
+1
+1 
+以及
+1 1
+1 1
+以及
+1
+1
+1
+```
+
+
+**输入描述：**
+>第一行一个整数，代表M
+后面M行，每行M个整数（取值0或1）
+
+**输出描述：**
+>一个整数，表示部门数量
+
+**样例：**
+```
+输入：
+4
+1 0 0 0
+0 0 0 0
+0 0 0 1
+0 0 0 0
+输出：
+2
+```
+
+### 参考代码
+```java
+import java.util.*;
+class Node{
+    int row;
+    int col;
+    public Node(int i,int j){
+        row=i;
+        col=j;
+    }
+    public int getRow(){
+        return row;
+    }
+    public int getCol(){
+        return col;
+    }
+}
+public class Main {
+    public static  void main(String[]args){
+        Scanner in=new Scanner(System.in);
+        while(in.hasNext()){
+            int M=Integer.parseInt(in.nextLine());
+            int[][]dp=new int[M][M];
+            for(int i=0;i<M;i++){
+                String[] strs=in.nextLine().split(" ");
+                for(int j=0;j<M;j++){
+                    dp[i][j]=Integer.parseInt(strs[j]);
+                }
+            }
+            int res=0;
+            boolean[][]flag=new boolean[M][M];
+            for(int i=0;i<M;i++){
+                for(int j=0;j<M;j++){
+                    if(dp[i][j]==1&&!flag[i][j]){
+                        flag[i][j]=true;
+                        res++;
+                        dfs(dp,i,j,flag);
+                    }
+                }
+            }
+            System.out.println(res);
+        }
+    }
+
+    private static void dfs(int[][] dp, int i, int j, boolean[][] flag) {
+        if(i<0||j<0||i>=dp.length||j>=dp[0].length) return;
+        Queue<Node>queue=new LinkedList<>();
+        queue.add(new Node(i,j));
+        while(!queue.isEmpty()){
+            Node temp=queue.poll();
+            int row=temp.getRow();
+            int col=temp.getCol();
+            if(col<dp[0].length-1&&dp[row][col+1]==1){
+                queue.add(new Node(row,col+1));
+                flag[row][col+1]=true;
+            }
+            if(row<dp.length-1&&dp[row+1][col]==1){
+                queue.add(new Node(row+1,col));
+                flag[row+1][col]=true;
+            }
+        }
+        
+    }
+}
+```
+
+## 第十题 最大不重复子串
+
+### 题目描述
+>给定一个字符串，请找出其中无重复字符的最长字符串的长度。
+例如，
+```java
+"abcabcbb",其无重复字符的最长字符串是"abc",其中长度为3。
+"bbbbb",其无重复字符的最长字符串为"b",长度为1。
+```
+
+
+**输入描述：**
+>一个字符串
+
+**输出描述：**
+>一个整数
+
+**样例：**
+```
+输入：
+abc
+输出：
+3
+```
+
+### 参考代码
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[]args) {
+        Scanner in = new Scanner(System.in);
+        while (in.hasNext()) {
+            String str=in.nextLine();
+            char[]chs=str.toCharArray();
+            int []dp=new int[chs.length];
+            Arrays.fill(dp,1);
+            for(int i=1;i<chs.length;i++){
+                int temp=1;
+                for(int j=1;j<=dp[i-1];j++){
+                    if(chs[i]==chs[i-j]){
+                        break;
+                    }else {
+                        temp++;
+                    }
+                }
+                dp[i]=temp;
+            }
+            int res=0;
+            for(int i=0;i<dp.length;i++){
+                if(dp[i]>res){
+                    res=dp[i];
+                }
+            }
+            System.out.println(res);
+        }
+    }
+}
+```
+
