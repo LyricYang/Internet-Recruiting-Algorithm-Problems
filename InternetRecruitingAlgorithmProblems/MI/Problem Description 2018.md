@@ -3,6 +3,8 @@
 <!-- TOC -->
 * [第一题:24点](#第一题-24点)
 * [第二题:完美矩形](#第二题-完美矩形)
+* [第三题:合并集合](#第三题-合并集合)
+* [第四题:添加符号](#第四题-添加符号)
 <!-- TOC -->
 
 
@@ -223,6 +225,200 @@ public class Main {
         if(rect.y1>parentRect.y1){
             parentRect.setY1(rect.y1);
         }
+    }
+}
+```
+
+
+## 第三题 集合合并
+
+### 题目描述
+>给定若干个32位int数字集合，每个集合中的数字无重复，譬如：
+  {1,2,3}  {2,5,6}  {8}
+将其中交集不为空的集合合并，保证合并完成后所有集合之间无交集，输出合并后的集合个数以及最大集合中元素的个数。
+
+**输入描述:**
+>1. 第一行为一个数字N，表示集合数。
+2. 接下来N行，每行一个非空集合，包含若干个数字，数字之间用空格分开。
+
+**输出描述:**
+>1. 第一行为合并后的集合个数。
+2. 第二个为最大集合中元素的个数。
+
+**样例：**
+```
+输入
+3
+1 2 3
+2 5 6
+8
+
+输出
+2
+5
+```
+
+
+### 参考代码
+```java
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int N  = in.nextInt();
+        in.nextLine();
+        ArrayList<Set<Integer>> set = new ArrayList<>();
+        for(int i=0;i<N;i++){
+            String line = in.nextLine();
+            String[] arr = line.split(" ");
+            HashSet<Integer> nums = new HashSet<>();
+            for(int j=0;j<arr.length;j++){
+                nums.add(Integer.valueOf(arr[j]));
+            }
+            set.add(nums);
+        }
+        ArrayList<HashSet<Integer>> result = new ArrayList<>();
+        boolean flag = true;
+        for(int i=0;i<set.size();i++){
+            for(int j=i+1;j<set.size();){
+                Set<Integer> tmp = union(set.get(i),set.get(j));
+                if(tmp.size()<set.get(i).size()+set.get(j).size()&&tmp.size()>set.get(i).size()&&tmp.size()>set.get(j).size()){
+                    set.set(i,tmp);
+                    set.remove(j);
+                }else{
+                    j++;
+                }
+            }
+        }
+        System.out.println(set.size());
+        int max = 0;
+        for(int i=0;i<set.size();i++){
+            if(set.get(i).size()>max){
+                max = set.get(i).size();
+            }
+        }
+        System.out.println(max);
+    }
+
+    public static <T> Set<T> union(Set<T> a, Set<T> b){
+        Set<T> set = new HashSet<T>(a);
+        set.addAll(b);
+        return set;
+    }
+}
+```
+
+## 第四题 添加符号
+
+### 题目描述
+>给出一个数字N，对于数字序列 1,2,3 ... N。现在在其中插入“+”, "-", " "，使得表达式的和为M。" "的含义是把相邻的两个数字组成一个数。例如：1 + 2 3 - 4，含义是：1 + 23 - 4 = 20。
+给出N和M，求出所有合法的序列的个数。
+
+**输入描述:**
+>两个整数N,M ( N <= 7, M <= 100)
+
+**输出描述:**
+>合法序列的个数
+
+**样例：**
+```
+输入
+7 0
+
+输出
+6
+
+样例中的六种合法序列
+1+2-3+4-5-6+7 
+1+2-3-4+5+6-7 
+1-2 3+4+5+6+7 
+1-2 3-4 5+6 7 
+1-2+3+4-5+6-7 
+1-2-3-4-5+6+7
+```
+
+### 参考代码
+```java
+import java.util.*;
+public class Main {
+
+    private static List<List<Integer>> list = new ArrayList<>();
+    private static List<List<Integer>> op_list = new ArrayList<>();
+
+    public static void main(String[] args) {
+
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
+        int result = in.nextInt();
+        System.out.println(getResult(N,result));
+    }
+
+    public static int getResult(int N,int result) {
+        fun(N);
+        int count = 0;
+        for(int k=0; k<list.size(); k++){
+            Integer [] ee = new Integer[list.get(k).size()];
+            op_list.clear();
+            fun_op(list.get(k).toArray(ee), list.get(k).size()-1);
+            //一组组合添加+或者-以后可能有的数组，计算其和
+            for(int i=0; i<op_list.size(); i++){
+                List<Integer> l = op_list.get(i);
+                int sum = 0;
+                for(int j=0; j<l.size(); j++){
+                    sum+=l.get(j);
+                }
+                if(sum==result && l.get(0)>0){
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+    //所有数字有可能的组合
+    public static int fun(int c) {
+        if(c==1){
+            List gen = new ArrayList();
+            gen.add(1);
+            list.add(gen);
+            return 1;
+        }
+        int r = 0;
+        r = r + 2*fun(c-1);
+
+        int k = list.size();
+        for(int i=0; i<k; i++){
+            List old = list.get(i);
+            List gen = new ArrayList(old);
+            gen.set(gen.size()-1, (int)(gen.get(gen.size()-1))*10 + c);
+            list.add(gen);
+            old.add(c);
+        }
+        return r;
+    }
+    //一组组合添加+或者-以后可能有的数组
+    public static int fun_op(Integer [] arr, int c){
+        if(c==0){
+            List gen1 = new ArrayList();
+            gen1.add(arr[c]);
+            List gen2 = new ArrayList();
+            gen2.add(-arr[c]);
+            op_list.add(gen1);
+            op_list.add(gen2);
+            return 2;
+        }
+        int r = 0;
+        r = r + fun_op(arr,c-1);
+
+        int k = op_list.size();
+        for(int i=0; i<k; i++){
+            List old = op_list.get(i);
+            List gen = new ArrayList(old);
+            gen.add(-1*arr[c]);
+            op_list.add(gen);
+            old.add(arr[c]);
+        }
+        return r;
     }
 }
 ```

@@ -4,6 +4,13 @@
 * [第一题:拼凑正方形](#第一题-拼凑正方形)
 * [第二题:区间表达](#第二题-区间表达)
 * [第三题:缺失的括号](#第三题-缺失的括号)
+* [第四题:回文素数](#第四题-回文素数)
+* [第五题:排序](#第五题-排序)
+* [第六题:青草游戏](#第六题-青草游戏)
+* [第七题:红和绿](#第七题-红和绿)
+* [第八题:拼凑三角形](#第八题-拼凑三角形)
+* [第九题:括号匹配深度](#第九题-括号匹配深度)
+* [第十题:最后一位](#第十题-最后一位)
 <!-- TOC -->
 
 
@@ -157,7 +164,6 @@ public class Main{
 }
 ```
 
-
 ## 第四题 回文素数
 
 ### 题目描述
@@ -181,6 +187,7 @@ public class Main{
 输出
 2
 ```
+
 
 ### 参考代码
 ```java
@@ -221,6 +228,7 @@ public class Main{
     }
 }
 ```
+
 
 ## 第五题 排序
 
@@ -263,8 +271,8 @@ public class Main{
         for(int i=0;i<n;i++){
             if(arr_origine[i]!=arr_sorted[i]){
                 result++;
-            }
-        }
+	    }
+	}
         System.out.println(result);
     }
 }
@@ -284,6 +292,7 @@ public class Main{
 
 **输出描述:**
 >对于每一个n,如果牛牛胜利输出"niu",如果羊羊胜利输出"yang"。
+
 
 **样例：**
 ```
@@ -314,6 +323,255 @@ public class Main{
                 System.out.println("niu");
             }
         }
+    }
+}
+```
+
+
+
+## 第七题 红和绿
+
+### 题目描述
+>牛牛有一些排成一行的正方形。每个正方形已经被染成红色或者绿色。牛牛现在可以选择任意一个正方形然后用这两种颜色的任意一种进行染色,这个正方形的颜色将会被覆盖。牛牛的目标是在完成染色之后,每个红色R都比每个绿色G距离最左侧近。牛牛想知道他最少需要涂染几个正方形。
+如样例所示: s = RGRGR
+我们涂染之后变成RRRGG满足要求了,涂染的个数为2,没有比这个更好的涂染方案。 
+
+**输入描述:**
+>输入包括一个字符串s,字符串s长度length(1 ≤ length ≤ 50),其中只包括'R'或者'G',分别表示红色和绿色。
+
+
+**输出描述:**
+>输出一个整数,表示牛牛最少需要涂染的正方形数量
+
+**样例：**
+```
+输入
+RGRGR
+
+输出
+2
+```
+
+### 解题思路
+- 分别记录截止到每个位置处有多少个R和有多少个G，遍历字符串将‘G’作为分隔点，记录每个G位置处需要修改的次数，选出最小的次数。
+
+```
+  R  G  R  G  R
+R:1  1  2  2  3
+G:0  1  1  2  2
+
+修改的次数：numOfPrint=numOfG[i]-1+numOfR[n-1]-numOfR[i];
+例如：第一个G位置处需要修改这个位置前的所有G，这个位置后的所有R，即：1-1+3-1=2
+```
+
+
+### 参考代码
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        String string = in.nextLine();
+        int n = string.length();
+        int[] numOfR = new int[n];
+        int[] numOfG = new int[n];
+        numOfR[0]=string.charAt(0)=='R'?1:0;
+        numOfG[0]=string.charAt(0)=='G'?1:0;
+        int result = Integer.MAX_VALUE;
+        for(int i=1;i<n;i++){
+            if(string.charAt(i)=='R'){
+                numOfR[i]=numOfR[i-1]+1;
+                numOfG[i]=numOfG[i-1];
+            }else{
+                numOfR[i]=numOfR[i-1];
+                numOfG[i]=numOfG[i-1]+1;
+            }
+        }
+        for(int i=0;i<n;i++){
+            if(string.charAt(i)=='G'){
+                int numOfPrint=numOfG[i]-1+numOfR[n-1]-numOfR[i];
+                if(numOfPrint<result){
+                    result = numOfPrint;
+                }
+            }
+        }
+        System.out.println(result);
+    }
+}
+```
+
+
+## 第八题 拼凑三角形
+
+### 题目描述
+>牛牛手中有三根木棍,长度分别是a,b,c。牛牛可以把任一一根木棍长度削短,牛牛的目标是让这三根木棍构成一个三角形,并且牛牛还希望这个三角形的周长越大越好。 
+
+**输入描述:**
+>输入包括一行,一行中有正整数a, b, c(1 ≤ a, b, c ≤ 100), 以空格分割
+
+
+**输出描述:**
+>输出一个整数,表示能拼凑出的周长最大的三角形。
+
+**样例：**
+```
+输入
+1 2 3
+
+输出
+5
+```
+
+### 解题思路
+- 最长边大于其余两边之和。假设最长边为c并且c>=a+b,则c削短后最大为a+b-1。
+
+
+### 参考代码
+```java
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        int a = in.nextInt();
+        int b = in.nextInt();
+        int c = in.nextInt();
+        if(a+b<=c){
+            System.out.println(2*(a+b)-1);
+        }else if(a+c<=b){
+            System.out.println(2*(a+c)-1);
+        }else if(b+c<=a){
+            System.out.println(2*(b+c)-1);
+        }else{
+            System.out.println(a+b+c);
+        }
+    }
+}
+```
+
+
+
+
+
+## 第九题 括号匹配深度
+
+### 题目描述
+>一个合法的括号匹配序列有以下定义:
+1、空串""是一个合法的括号匹配序列
+2、如果"X"和"Y"都是合法的括号匹配序列,"XY"也是一个合法的括号匹配序列
+3、如果"X"是一个合法的括号匹配序列,那么"(X)"也是一个合法的括号匹配序列
+4、每个合法的括号序列都可以由以上规则生成。
+例如: "","()","()()","((()))"都是合法的括号序列
+对于一个合法的括号序列我们又有以下定义它的深度:
+1、空串""的深度是0
+2、如果字符串"X"的深度是x,字符串"Y"的深度是y,那么字符串"XY"的深度为max(x,y) 
+3、如果"X"的深度是x,那么字符串"(X)"的深度是x+1
+例如: "()()()"的深度是1,"((()))"的深度是3。牛牛现在给你一个合法的括号序列,需要你计算出其深度。 
+
+**输入描述:**
+>输入包括一个合法的括号序列s,s长度length(2 ≤ length ≤ 50),序列中只包含'('和')'。
+
+
+**输出描述:**
+>输出一个正整数,即这个序列的深度。
+
+**样例：**
+```
+输入
+(())
+
+输出
+2
+```
+
+### 解题思路
+- 用栈来解决括号匹配问题，栈中'('的最大个数就决定了括号的深度。
+
+
+### 参考代码
+```java
+import java.util.*;
+public class Main{
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        String string = in.nextLine();
+        int result = 0;
+        Stack<Character> stack = new Stack<Character>();
+        for(int i=0;i<string.length();i++){
+            if(stack.empty()){
+                stack.push(string.charAt(i));
+                if(stack.size()>result){
+                    result = stack.size();
+                }
+            }else{
+                if(string.charAt(i)=='('){
+                    stack.push(string.charAt(i));
+                    if(stack.size()>result){
+                        result = stack.size();
+                    }
+                }else{
+                    stack.pop();
+                }
+            }
+        }
+        System.out.println(result);
+    }
+}
+```
+
+
+## 第十题 最后一位
+
+### 题目描述
+>牛牛选择了一个正整数X,然后把它写在黑板上。然后每一天他会擦掉当前数字的最后一位,直到他擦掉所有数位。 在整个过程中,牛牛会把所有在黑板上出现过的数字记录下来,然后求出他们的总和sum.
+例如X = 509, 在黑板上出现过的数字依次是509, 50, 5, 他们的和就是564.
+牛牛现在给出一个sum,牛牛想让你求出一个正整数X经过上述过程的结果是sum. 
+
+**输入描述:**
+>输入包括正整数sum(1 ≤ sum ≤ 10^18)
+
+
+**输出描述:**
+>输出一个正整数,即满足条件的X,如果没有这样的X,输出-1。
+
+**样例：**
+```
+输入
+564
+
+输出
+509
+```
+
+
+### 参考代码
+```java
+import java.util.*;
+
+public class Main{
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        long sum = in.nextLong();
+        long low=0,cur=1,high,temp,n;
+        high=sum;
+        while(low<=high){
+            temp=0;
+            cur=(low+high)/2;
+            n=cur;
+            while(n>0){
+                temp+=n;
+                n/=10;
+            }
+            if(temp==sum){
+                System.out.println(cur);
+                return;
+            }
+            else{
+                if(temp<sum) low=cur+1;
+                else high=cur-1;
+            }
+        }
+        System.out.println(-1);
     }
 }
 ```
