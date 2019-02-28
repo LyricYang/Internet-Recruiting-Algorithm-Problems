@@ -10,7 +10,7 @@
 
 - [公司招聘算法笔试题解答](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/InternetRecruitingAlgorithmProblems/Readme.md)
 
-  各大互联网公司近两年招聘的算法编程题，只总结了部分，希望能补充
+  各大互联网公司近两年招聘的算法编程题，只总结了部分，后续会不断补充。题解代码只是个人的思路，并不是最优的，有些题有解题说明，便于自己回忆和理解代码。
 
 - [程序员代码面试指南](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/README.md)
 
