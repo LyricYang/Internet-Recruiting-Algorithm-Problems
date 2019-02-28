@@ -20,10 +20,18 @@
 
 附上链接：[程序员代码面试指南](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/README.md)
 
+## 《剑指offer》
+
+《剑指offer》中的题目在笔试面试中经常遇到，可以在牛客网上在线编程。我在总结时，会给出自己的代码（自己做题时的思路）和书中的参考代码，代码还是以书上的为准。
+
+附上链接：[剑指Offer](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/README.md)
+
 ## 面试过程中遇到的手写代码题
 
 面试过程中面试官往往会让你针对实际问题手写代码或者提出几个问题让你描述解题思路，写出关键代码。
 
 附上链接：[面试中手撕的代码问题](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/INTERVIEW/Interview.md)
+
+
 
 
