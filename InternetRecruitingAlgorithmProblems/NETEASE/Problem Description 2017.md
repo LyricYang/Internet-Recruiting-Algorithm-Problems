@@ -48,7 +48,7 @@
 同理，Minval[i][j]表示同样状态下的最小乘积（由于数据中存在负数，负数乘上某个极大的负数反而会变成正的极大值，因而需要同时记录最小值）。
 Maxval[i][j]很显然与Maxval[i][j-1]相关，可以理解为Maxval[i][j]由两部分组成，一部分是自身作为待选值，另一部分是Maxval[i][j-1]乘上一个人后得到的值，然后取它们的极大值，由此可以得到状态转移方程如下：
 
-<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/pic/Q1Y2017.jpg"/> </div><br>
+<div align="center"> <img src="https://raw.githubusercontent.com/LyricYang/Internet-Recruiting-Algorithm-Problems/master/InternetRecruitingAlgorithmProblems/NETEASE/pic/Q1Y2017.jpg"/> </div><br>
 
 ### 参考代码
 
@@ -508,7 +508,7 @@ YES
 
 ### 解题思路
 - 动态规划：用一个s字符串长度的dp数组，记录t字符串中每个字符前有多少个s中的字符。
-<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/pic/Q7Y2017.jpg"/> </div><br>
+<div align="center"> <img src="https://raw.githubusercontent.com/LyricYang/Internet-Recruiting-Algorithm-Problems/master/InternetRecruitingAlgorithmProblems/NETEASE/pic/Q7Y2017.jpg"/> </div><br>
 
 ### 参考代码
 
@@ -774,7 +774,7 @@ public class Main{
 ### 解题思路
 - 题目可以转化成求符合条件的集合真子集个数。每次从全集中选择若干元素（小球）组成子集（袋子）。集合子集个数为2^n个，使用dfs必然超时。且此题有重复元素，那么就搜索**剪枝**。对于任意两个正整数a,b如果满足`a+b>a*b`，则必有一个数为1.可用数论证明：
 设`a=1+x,b=1+y，则1+x+1+y>(1+x)*(1+y)，--->  1>x*y`，则x，y必有一个为0，即a,b有一个为1.推广到任意k个正整数，假设a1,a2,...ak，如果不满足给定条件，即和sum小于等于积pi，如果此时再选择一个数b,能使其满足`sum+b > pi*b`，则，b必然为1，且为必要非充分条件。反之，如果选择的b>1，则`sum+b <=pi*b`，即a1,a2,...,ak,b不满足给定条件。
-<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/pic/Q10Y2017.jpg"/> </div><br>
+<div align="center"> <img src="https://raw.githubusercontent.com/LyricYang/Internet-Recruiting-Algorithm-Problems/master/InternetRecruitingAlgorithmProblems/NETEASE/pic/Q10Y2017.jpg"/> </div><br>
 
 ### 参考代码
 
@@ -847,7 +847,7 @@ public class Main{
 - 算法复杂度**O(WH)**,空间复杂度**O(WH)**
 
 - **算法二**：分整除4，整除2，奇数等几种情况讨论即可。蛋糕位置就是间隔每个2*2的正方形的区域。
-<div align="center"> <img src="https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/NETEASE/pic/Q11Y2017.jpg"/> </div><br>
+<div align="center"> <img src="https://raw.githubusercontent.com/LyricYang/Internet-Recruiting-Algorithm-Problems/master/InternetRecruitingAlgorithmProblems/NETEASE/pic/Q11Y2017.jpg"/> </div><br>
 
 ### 参考代码
 
