@@ -15,6 +15,9 @@
 - [程序员代码面试指南](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/README.md)
 
   《程序员代码面试指南》源码分章总结
+  
+  这本书不仅可以作为代码面试指南，还可以作为学生与程序员的辅助练习。作者刷题5年，悉数总结都沉淀在这本书里，相信跟着他的引导，从头到尾逐一攻克一定会有所收获。
+　　——叶向宇牛客网CEO
 
 - [面试中手撕的代码问题](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/INTERVIEW/Interview.md)
 
