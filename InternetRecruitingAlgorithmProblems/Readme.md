@@ -1,6 +1,8 @@
 
 ## 公司招聘算法笔试题解答
 
+公司招聘算法笔试题主要通过公司进行分类，第一栏的链接直达各公司的招聘官网，后两栏的链接可以看到笔试题及解答。
+
 |公司|公司类型|2018笔试题|2017笔试题|
 |:---|:----:|:----:|:---:|
 |[网易](http://campus.163.com/#/home)                                                                                      |互联网      |[2018](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/InternetRecruitingAlgorithmProblems/NETEASE/Problem%20Description%202018.md)|[2017](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/InternetRecruitingAlgorithmProblems/NETEASE/Problem%20Description%202017.md)|
