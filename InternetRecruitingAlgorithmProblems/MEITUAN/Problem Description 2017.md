@@ -81,7 +81,7 @@ public class Main{
 
 - 典型的组合数学问题，若是一个`X*Y`的网格，则总共要走`X+Y`步才能从左上角到右下角，共有多少种走法，即从`X+Y`步中选择`X`步向下走，共有多少种选法。
 <div align="center">
-<img src="http://latex.codecogs.com/gif.latex?C^X_{X&plus;Y}" title="C^X_{X+Y}" /></div>
+<img src="https://raw.githubusercontent.com/LyricYang/Internet-Recruiting-Algorithm-Problems/master/InternetRecruitingAlgorithmProblems/MEITUAN/pic/Q2Y2017.png" /></div>
 
 ### 参考代码
 ```java
