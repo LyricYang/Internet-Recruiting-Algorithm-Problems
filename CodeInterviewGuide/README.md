@@ -27,6 +27,7 @@ Coding Interview Guide这个仓库是我在看左程云的著作《程序员代�
 | 1008 | 求最大子矩阵的大小 (☆☆☆)                         |[查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter01_Stack%26Queue/Q1008.md)  | 栈                                |
 | 1009 | 最大值减去最小值小于或等于num的子数组数量 (☆☆☆)  |[查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter01_Stack%26Queue/Q1009.md)  | 队列                              |
 
+<br>[⬆ 回到顶部](#程序员代码面试指南)
 
 # 链表问题
 
@@ -53,6 +54,7 @@ Coding Interview Guide这个仓库是我在看左程云的著作《程序员代�
 | 1019 | 合并两个有序的单链表 (☆)                                   | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter02_List/Q1019.md)   | 合并链表                              |
 | 1020 | 按照左右半区的方式重新组合单链表 (☆)                       | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter02_List/Q1020.md)   | 调整链表                              |
 
+<br>[⬆ 回到顶部](#程序员代码面试指南)
 
 # 二叉树问题
 
@@ -83,6 +85,7 @@ Coding Interview Guide这个仓库是我在看左程云的著作《程序员代�
 | 1023 | 统计和生成所有不同的二叉树 (☆☆)                                        | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter03_BT/Q1023.md)   | 统计二叉树                              |
 | 1024 | 统计完全二叉树的节点数 (☆☆)                                            | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter03_BT/Q1024.md)   | 统计二叉树                              |
 
+<br>[⬆ 回到顶部](#程序员代码面试指南)
 
 # 递归和动态规划
 
@@ -106,6 +109,7 @@ Coding Interview Guide这个仓库是我在看左程云的著作《程序员代�
 | 1016 | 数组中的最长连续序列 (☆☆)                      | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter04_RecursionAndDP/Q1016.md)   | 递归、动态规划                              |
 | 1017 | N皇后问题 (☆☆☆)                                | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter04_RecursionAndDP/Q1017.md)   | 递归、动态规划                              |
 
+<br>[⬆ 回到顶部](#程序员代码面试指南)
 
 # 字符串问题
 
@@ -135,6 +139,7 @@ Coding Interview Guide这个仓库是我在看左程云的著作《程序员代�
 | 1022 | 宇符串匹配问题 (☆☆☆)                                         | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter05_String/Q1022.md)   | 字符串匹配                              |
 | 1023 | 字典树（前缀树〉的实现 (☆☆)                                  | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter05_String/Q1023.md)   | 字典树                                  |
 
+<br>[⬆ 回到顶部](#程序员代码面试指南)
 
 # 位运算
 
@@ -147,6 +152,7 @@ Coding Interview Guide这个仓库是我在看左程云的著作《程序员代�
 | 1005 | 在其他数都出现偶数次的数组中找到出现奇数次的数 (☆☆)          | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter06_Bit/Q1005.md)   | 位运算                              |
 | 1006 | 在其他数都出现k次的数组中找到只出现一次的数(☆☆)              | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter06_Bit/Q1006.md)   | 位运算                              |
 
+<br>[⬆ 回到顶部](#程序员代码面试指南)
 
 # 数组和矩阵问题
 
@@ -179,6 +185,7 @@ Coding Interview Guide这个仓库是我在看左程云的著作《程序员代�
 | 1025 | 数组中未出现的最小正整数 (☆☆)                                      | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter07_ArrayAndMatrix/Q1025.md)   | 搜索数组                              |
 | 1026 | 数组排序之后相邻数的最大差值 (☆☆)                                  | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter07_ArrayAndMatrix/Q1026.md)   | 数组差值                              |
 
+<br>[⬆ 回到顶部](#程序员代码面试指南)
 
 # 其他问题
 
@@ -219,3 +226,4 @@ Coding Interview Guide这个仓库是我在看左程云的著作《程序员代�
 | 1033 | 画匠问题 (☆☆☆)                                          | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter08_Others/Q1033.md)   |                               |
 | 1034 | 邮局选址问题 (☆☆☆)                                      | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/CodeInterviewGuide/Chapter08_Others/Q1034.md)   |                               |
 
+<br>[⬆ 回到顶部](#程序员代码面试指南)
