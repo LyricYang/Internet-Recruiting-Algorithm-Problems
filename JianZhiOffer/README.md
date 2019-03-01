@@ -62,14 +62,14 @@
 | 1054 | 表中环的入口结点                                    | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1054.md)   | 链表                            |
 | 1055 | 除链表中重复的结点                                  | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1055.md)   | 链表                            |
 | 1056 | 二叉树的下一个结点                                  | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1056.md)   | 树                              |
-| 1057 | 称的二叉树                                          | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1054.md)   | 树                              |
+| 1057 | 对称的二叉树                                        | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1054.md)   | 树                              |
 | 1058 | 按之字形顺序打印二叉树                              | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1055.md)   | 二叉树                          |
 | 1059 | 二叉树打印成多行                                    | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1056.md)   | 二叉树                          |
-| 1060 | 列化二叉树                                          | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1060.md)   | 序列化、二叉树                  |
+| 1060 | 序列化二叉树                                        | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1060.md)   | 序列化、二叉树                  |
 | 1061 | 二叉搜索树的第k个结点                               | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1061.md)   | 二叉树                          |
 | 1062 | 据流中的中位数                                      | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1062.md)   | 树                              |
 | 1063 | 动窗口的最大值                                      | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1063.md)   | 栈、队列                        |
-| 1064 | 阵中的路径                                          | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1064.md)   | 回溯法                          |
+| 1064 | 矩阵中的路径                                        | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1064.md)   | 回溯法                          |
 | 1065 | 机器人的运动范围                                    | [查看题解](https://github.com/LyricYang/Internet-Recruiting-Algorithm-Problems/blob/master/JianZhiOffer/Code/Q1065.md)   | 回溯法                          |
 
 <br>[⬆ 回到顶部](#剑指Offer)
